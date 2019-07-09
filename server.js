@@ -91,7 +91,7 @@ function findPage(filename, callback){
    
 }
 
-server.listen(port, (error)=>{
+server.listen(port, '127.0.0.1',(error)=>{
     if(error){
         console.error('An error occurred', error)
     } else {
