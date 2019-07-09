@@ -3,7 +3,7 @@ const fs = require('fs');
 const url = require('url');
 const path = require('path');
 
-const port = 3000;
+const port = 8080;
 const siteDir = './site'
 const page404 = fs.readFileSync(siteDir + '/404.html');
 const indexPage = siteDir + '/index.html';
@@ -21,10 +21,13 @@ var mime = {
 
 const server = http.createServer((req,res)=>{
     
-    console.log('[' + Date.now() + '] (' + req.connection.remoteAddress + ') ' + req.url);
+    //console.log('[' + Date.now() + '] (' + req.connection.remoteAddress + ') ' + req.url);
 
     var q = url.parse(req.url, true);
-    var filename = siteDir + q.pathname;
+    var filename = siteDir + url.fileURLToPath(q);
+    
+
+    console.log('[' + Date.now() + '] (' + req.connection.remoteAddress + ') ' + req.url + ' | ' + filename);
 
     //Display index.html if no file name.
     if(q.pathname == '/')
