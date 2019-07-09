@@ -3,7 +3,7 @@ const fs = require('fs');
 const url = require('url');
 const path = require('path');
 
-const port = 8080;
+const port = 8081;
 const siteDir = './site'
 const page404 = fs.readFileSync(siteDir + '/404.html');
 const indexPage = siteDir + '/index.html';
@@ -24,7 +24,7 @@ const server = http.createServer((req,res)=>{
     //console.log('[' + Date.now() + '] (' + req.connection.remoteAddress + ') ' + req.url);
 
     var q = url.parse(req.url, true);
-    var filename = siteDir + url.fileURLToPath(q);
+    var filename = siteDir + decodeURIComponent(q.path);
     
 
     console.log('[' + Date.now() + '] (' + req.connection.remoteAddress + ') ' + req.url + ' | ' + filename);
