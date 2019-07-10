@@ -26,14 +26,14 @@ const http = require('http');
                 'Location': newpath
               });
               res.end();
-        }
+        }else{
 	
 	    findPage(filename, (data,head)=>{
 	        res.writeHead(head, {'Content-Type': 'text/html'});
 	        res.write(data);
 	        res.end();
 	    })
-	
+    }
 	})
 	
 	function findPage(filename, callback){
