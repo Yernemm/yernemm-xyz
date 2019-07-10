@@ -80,3 +80,5 @@ function generateLeak(){
     document.getElementById("leak").innerHTML = '<p class="theleak"> ' + r(intro) + ' </p> <p class="theleak"> ' + r(uptxt) + " " + r(gamemodes) + " map" + r(mapcont) + " " + r(mapexp) + r(loc) + ". " + r(mfea1) + " " + r(conn) + " " + r(mfea2) + '. </p> <p class="theleak">' + r(hein) + r(heint) + r(hen1) + r(hen2) + ". It is going to be " + r(role) + " hero. Some of its abilities are kind of similar to " + r(allHeroes) + ". " + r(ab1) + r(nab1) + r(nab2) + r(abex) + r(averb) + r(anoun) + r(conti) + r(role1) + '. </p> <p class="theleak">' + "We've also got a few " + r(addcont) + " coming soon, featuring " + r(allHeroes) + " and " + r(allHeroes) + '. </p> <p class="theleak">' + r(closer) + "</p>"
 	
 }
+
+window.onload = generateLeak();
