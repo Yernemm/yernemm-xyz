@@ -2,10 +2,22 @@ const http = require('http');
 const fs = require('fs');
 const url = require('url');
 const m = require("./shared/methods.js");
+
 const port = 8080;
 const siteDir = './site'
 const page404 = fs.readFileSync(siteDir + '/404.html');
 const indexPage = siteDir + '/index.html';
+
+var mime = {
+    html: 'text/html',
+    txt: 'text/plain',
+    css: 'text/css',
+    gif: 'image/gif',
+    jpg: 'image/jpeg',
+    png: 'image/png',
+    svg: 'image/svg+xml',
+    js: 'application/javascript'
+};
 
 const server = http.createServer((req, res) => {
     let ip = req.headers['x-real-ip'] || req.connection.remoteAddress;
@@ -17,6 +29,7 @@ const server = http.createServer((req, res) => {
     //Display index.html if no file name.
     if (q.pathname == '/')
         filename = indexPage
+        
 
     //Redirect non-static media requests to static.
     if (q.pathname.startsWith("/media/")) {
@@ -28,10 +41,19 @@ const server = http.createServer((req, res) => {
         res.end();
     } else {
 
+
+        var reqpath = req.url.toString().split('?')[0];
+        var file = path.join(filename, reqpath.replace(/\/$/, '/index.html'));
+        var type = mime[path.extname(file).slice(1)] || 'text/html';
+
+
         findPage(filename, (data, head) => {
-            res.writeHead(head, {
-                'Content-Type': 'text/html'
-            });
+
+            if(errorType)
+            res.writeHead(head, {'Content-Type': 'text/html'});
+        else
+            res.writeHead(head, {'Content-Type': type});
+
             res.write(data);
             res.end();
         })
@@ -81,7 +103,7 @@ function findPage(filename, callback) {
 
 }
 
-server.listen(port, (error) => {
+server.listen(port, '127.0.0.1' (error) => {
     if (error) {
         console.error('An error occurred', error)
     } else {
