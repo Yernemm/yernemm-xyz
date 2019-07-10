@@ -22,10 +22,10 @@ const http = require('http');
         if(q.pathname.startsWith("/media/")){
             let newpath = '/static' + q.pathname;
             console.log("Redirect to " + newpath)
-            response.writeHead(302, {
+            res.writeHead(302, {
                 'Location': newpath
               });
-              response.end();
+              res.end();
         }
 	
 	    findPage(filename, (data,head)=>{
