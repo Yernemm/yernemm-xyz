@@ -3,6 +3,7 @@ const fs = require('fs');
 const url = require('url');
 const path = require('path');
 const m = require("./shared/methods.js");
+const templateParser = require("./modules/template-parser.js");
 
 const port = 8080;
 const siteDir = './site'
@@ -54,7 +55,7 @@ const server = http.createServer((req, res) => {
             res.writeHead(head, {'Content-Type': 'text/html'});
         else
             res.writeHead(head, {'Content-Type': type});
-
+            templateParser(data, (stuff) => {})
             res.write(data);
             res.end();
         })
