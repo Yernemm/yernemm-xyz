@@ -60,48 +60,49 @@ const server = http.createServer((req, res) => {
     }
 })
 
-function findPage(filename, callback) {
+function findPage(filename, callback){
     let data = 'Error.'
     let head = 404
     //First, try to find the full page name
-    fs.readFile(filename, (error, data) => {
-        if (error) {
+    fs.readFile(filename, (error, data)=>{
+        if(error){
             //Not found. Let's try sticking a /index.html at the end.
-            let newFilename = filename;
+            let newFilename = filename; 
             if (filename.endsWith('/'))
                 newFilename += 'index.html'
             else
                 newFilename += '/index.html'
 
-            fs.readFile(newFilename, (error, data) => {
-                if (error) {
-                    //Still not found. Let's try just adding a .html at the end
+                fs.readFile(newFilename, (error, data)=>{
+                    if(error){
+                        //Still not found. Let's try just adding a .html at the end
 
-                    fs.readFile(filename + '.html', (error, data) => {
-                        if (error) {
-                            //Not found after all this. Probably does not exist.
-                            //Display 404
+                        fs.readFile(filename + '.html', (error, data)=>{
+                            if(error){
+                                //Not found after all this. Probably does not exist.
+                                //Display 404
 
-                            callback(page404, 404);
+                                callback(page404, 404, true);
 
-                        } else {
-                            callback(data, 200);
-                        }
-                    })
+                            }else{
+                                callback(data, 200);
+                            }
+                        })
 
-                } else {
-                    callback(data, 200);
-                }
-            })
+                    }else{
+                        callback(data, 200);
+                    }
+                })
 
-        } else {
+        } else{
             callback(data, 200)
         }
-
+       
     })
 
-
+   
 }
+
 
 server.listen(port, '127.0.0.1', (error) => {
     if (error) {
