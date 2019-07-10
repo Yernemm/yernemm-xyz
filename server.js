@@ -8,7 +8,7 @@ const http = require('http');
 	const indexPage = siteDir + '/index.html';
 	
 	const server = http.createServer((req,res)=>{
-        var ip = req.headers['x-real-ip'] || req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+        var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
 	    console.log('[' + Date.now() + '] (' + ip + ') ' + req.url);
 	
 	    var q = url.parse(req.url, true);
