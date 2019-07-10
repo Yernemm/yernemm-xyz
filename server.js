@@ -1,15 +1,15 @@
 const http = require('http');
 	const fs = require('fs');
 	const url = require('url');
-	
+	const m = require("./shared/methods.js");
 	const port = 8080;
 	const siteDir = './site'
 	const page404 = fs.readFileSync(siteDir + '/404.html');
 	const indexPage = siteDir + '/index.html';
 	
 	const server = http.createServer((req,res)=>{
-        let ip = req.headers['x-real-ip'];
-	    console.log('[' + Date.now() + '] (' + ip + ') ' + req.url);
+        let ip = req.headers['x-real-ip'] || req.connection.remoteAddress;
+	    console.log('[' + m.formDate() + '] (' + ip + ') ' + req.url);
 	
 	    var q = url.parse(req.url, true);
 	    var filename = siteDir + q.pathname;
