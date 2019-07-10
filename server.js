@@ -48,7 +48,7 @@ const server = http.createServer((req, res) => {
         var type = mime[path.extname(file).slice(1)] || 'text/html';
 
 
-        findPage(filename, (data, head) => {
+        findPage(filename, (data, head, errorType = false)  => {
             
             if(errorType)
             res.writeHead(head, {'Content-Type': 'text/html'});
