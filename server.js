@@ -20,8 +20,10 @@ const http = require('http');
         
         //Redirect non-static media requests to static.
         if(q.pathname.startsWith("/media/")){
+            let newpath = '/static' + q.pathname;
+            console.log("Redirect to " + newpath)
             response.writeHead(302, {
-                'Location': '/static' + q.pathname
+                'Location': newpath
               });
               response.end();
         }
