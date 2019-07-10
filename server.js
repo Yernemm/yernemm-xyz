@@ -19,9 +19,9 @@ const http = require('http');
         filename = indexPage
         
         //Redirect non-static media requests to static.
-        if(filename.startsWith("/media/")){
+        if(q.pathname.startsWith("/media/")){
             response.writeHead(302, {
-                'Location': '/static' + filename
+                'Location': '/static' + q.pathname
               });
               response.end();
         }
