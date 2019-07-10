@@ -1,0 +1,13 @@
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgcl {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgcl {background-color: #122955}
+.bgcll {background-color: #006db5}
+.bgcll2 {background-color: #0b588b}
+.bgcll3 {background-color: #229ab8}
+.bgcc {background-color: #222e44; color:#b8c7d3}
