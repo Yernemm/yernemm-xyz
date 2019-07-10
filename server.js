@@ -48,7 +48,7 @@ const server = http.createServer((req, res) => {
 
 
         findPage(filename, (data, head) => {
-
+            
             if(errorType)
             res.writeHead(head, {'Content-Type': 'text/html'});
         else
@@ -103,7 +103,7 @@ function findPage(filename, callback) {
 
 }
 
-server.listen(port, '127.0.0.1' (error) => {
+server.listen(port, '127.0.0.1', (error) => {
     if (error) {
         console.error('An error occurred', error)
     } else {
