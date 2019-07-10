@@ -16,7 +16,15 @@ const http = require('http');
 	
 	    //Display index.html if no file name.
 	    if(q.pathname == '/')
-	    filename = indexPage
+        filename = indexPage
+        
+        //Redirect non-static media requests to static.
+        if(filename.startsWith("/media/")){
+            response.writeHead(302, {
+                'Location': '/static' + filename
+              });
+              response.end();
+        }
 	
 	    findPage(filename, (data,head)=>{
 	        res.writeHead(head, {'Content-Type': 'text/html'});
