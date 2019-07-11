@@ -8,11 +8,26 @@
     <link rel="stylesheet" type="text/css" href="/static/style/overwatch.css">
     <!--insert:head.html-->
     <title>Yernemm - Overwatch Hero Generator</title>
+
+    <script>
+
+            $(document).ready(function(){
+            $("#helpText").hide();
+        
+                    document.getElementById("helpText").innerHTML =
+        
+                    "This site will choose which Overwatch hero you should play. This will happen either randomly, or based on certain conditions which you can choose. You can also now select a character from the counters section to receive a random hero which counters the one that you selected. </p> <p> The main purpose of the hero generator is for displaying which heroes are good for certain situations, and for randomly choosing the hero for you. Even though it is always best to pick the hero you are good with yourself, it's sometimes more interesting to generate a random hero and only play as them in quickplay. Blizzard even made a weekly brawl based on this very idea before. It's fun to challenge yourself to try your best, even when the hero you play as is not good for the specific situation. However, if you do want to still be useful to your team with the random hero generator, then there are options that will generate the hero with certain conditions. However, you should remember that   this tool is intended for quickplay, custom games, or the arcade only. DO NOT USE THIS FOR COMPETITIVE! ";
+            });</script>
 </head>
 <body class="bgcll">
 
          <!--insert:headerBefore.html-->Overwatch Hero Generator<!--insert:headerAfter.html-->
-
+         <div class="w3-panel w3-pale-red w3-border">
+                <span onclick="this.parentElement.style.display='none'"
+                class="w3-button w3-large w3-display-topright">&times;</span>
+                <h3>This project is outdated.</h3>
+                <p>Currently, the web version of this project does not support all Overwatch heroes. This project will be remade in the future to use all heroes. If you want an up-to-date version, download the Android app version of this project.</p>
+              </div>
         <!--insert:contentBefore.html-->
 
 
