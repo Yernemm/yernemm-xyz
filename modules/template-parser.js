@@ -19,7 +19,7 @@ fs.readdir(templateDir, (err, files) => {
   });
 
 
-  addSpecial('projects', tempProjects.ps)
+  addSpecial('projects', tempProjects())
 
   function addSpecial(tag, data){
       let stringData = data.toString();

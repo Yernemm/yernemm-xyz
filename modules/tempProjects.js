@@ -1,6 +1,6 @@
 const projectsDir = './site/projects/';
-module.exports = {
-    ps: projsString
+module.exports = function () {
+    return projsString;
 }
 var projsString = "";
 let projects = [];
