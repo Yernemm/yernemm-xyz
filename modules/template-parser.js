@@ -17,11 +17,13 @@ fs.readdir(templateDir, (err, files) => {
   });
 
 function parseHTML(data, callback){
+    var dataToParse = data.toString();
     allTemplates.forEach(temp => {
-        if(data.includes('<!--insert:' + temp.file + '-->')){
+        let insertTag = '<!--insert:' + temp.file + '-->';
+        if(dataToParse.includes(insertTag)){
             console.log("Insert " + temp.file);
-            data = data.replace(new RegExp(temp.file), temp.data)
+            dataToParse = dataToParse.replace(new RegExp(insertTag, 'g'), temp.data)
         }
     })
-   callback(data)
+   callback(dataToParse)
 }

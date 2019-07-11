@@ -57,7 +57,7 @@ const server = http.createServer((req, res) => {
             res.writeHead(head, {'Content-Type': type});
             templateParser(data, (parsedData) => {
 
-                res.write(data);
+                res.write(parsedData);
                 res.end();
 
             })
