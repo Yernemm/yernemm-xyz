@@ -28,6 +28,24 @@ addProj(
 )
 
 addProj(
+    'patpatpat',
+    'Pat Pat Pat',
+    'Web Tools',
+    'ow',
+    'Pat Pat Pat!',
+    imgOverwatch
+)
+
+addProj(
+    'wintermei',
+    "Mei's Winter Experience",
+    'Web Tools',
+    'ow',
+    "Experience an accurate recreation of Mei's Winter Wonderland.",
+    imgOverwatch
+)
+
+addProj(
     'owmn-icons/',
     'OWMN CSS Generator',
     'Web Tools',
