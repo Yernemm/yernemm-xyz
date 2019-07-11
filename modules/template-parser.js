@@ -19,6 +19,7 @@ fs.readdir(templateDir, (err, files) => {
 function parseHTML(data, callback){
     allTemplates.forEach(temp => {
         if(data.includes('<!--insert:' + temp.file + '-->')){
+            console.log("Insert " + temp.file);
             data = data.replace(new RegExp(temp.file), temp.data)
         }
     })
