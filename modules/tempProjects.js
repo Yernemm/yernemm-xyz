@@ -7,6 +7,7 @@ let projects = [];
 
 const imgOverwatch = "/static/media/icons/ow.svg"
 const imgOther = "/static/media/icons/hammer.png"
+const imgOwmn = "/static/media/icons/owmn.svg"
 
 addProj(
     'owleakgen',
