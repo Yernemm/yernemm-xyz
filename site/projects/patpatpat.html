@@ -7,9 +7,64 @@
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-blue.css">
     <!--insert:head.html-->
     <title>Yernemm - Pat Pat Pat</title>
+
+    <script type="text/javascript">
+        if (typeof jQuery != 'undefined') {
+          jQuery(document).ready(function($) {
+            var filetypes = /\.(zip|exe|dmg|pdf|doc.*|xls.*|ppt.*|mp3|txt|rar|wma|mov|avi|wmv|flv|wav)$/i;
+            var baseHref = '';
+            if (jQuery('base').attr('href') != undefined) baseHref = jQuery('base').attr('href');
+        
+            jQuery('a').on('click', function(event) {
+              var el = jQuery(this);
+              var track = true;
+              var href = (typeof(el.attr('href')) != 'undefined' ) ? el.attr('href') :"";
+              var isThisDomain = href.match(document.domain.split('.').reverse()[1] + '.' + document.domain.split('.').reverse()[0]);
+              if (!href.match(/^javascript:/i)) {
+                var elEv = []; elEv.value=0, elEv.non_i=false;
+                if (href.match(/^mailto\:/i)) {
+                  elEv.category = "email";
+                  elEv.action = "click";
+                  elEv.label = href.replace(/^mailto\:/i, '');
+                  elEv.loc = href;
+                }
+                else if (href.match(filetypes)) {
+                  var extension = (/[.]/.exec(href)) ? /[^.]+$/.exec(href) : undefined;
+                  elEv.category = "download";
+                  elEv.action = "click-" + extension[0];
+                  elEv.label = href.replace(/ /g,"-");
+                  elEv.loc = baseHref + href;
+                }
+                else if (href.match(/^https?\:/i) && !isThisDomain) {
+                  elEv.category = "external";
+                  elEv.action = "click";
+                  elEv.label = href.replace(/^https?\:\/\//i, '');
+                  elEv.non_i = true;
+                  elEv.loc = href;
+                }
+                else if (href.match(/^tel\:/i)) {
+                  elEv.category = "telephone";
+                  elEv.action = "click";
+                  elEv.label = href.replace(/^tel\:/i, '');
+                  elEv.loc = href;
+                }
+                else track = false;
+        
+                   if (track) {
+                  ga('send', 'event', elEv.category.toLowerCase(), elEv.action.toLowerCase(), elEv.label.toLowerCase(), elEv.value, elEv.non_i);
+                  if ( el.attr('target') == undefined || el.attr('target').toLowerCase() != '_blank') {
+                    setTimeout(function() { location.href = elEv.loc; }, 400);
+                    return false;
+              }
+            }
+              }
+            });
+          });
+        }
+        </script>
 </head>
 <body class="w3-theme-d5">
-    <script src="/static/scripts/patpatpat.js"></script>
+
 
     <!--insert:headerBefore.html-->Pat Pat Pat<!--insert:headerAfter.html-->
         <div class="w3-container">
@@ -60,5 +115,32 @@
         <div class="w3-col m10 w3-center w3-text-theme">
         <p>This webpage will constantly loop Mei's "Pat Pat Pat" voice line from the Mei's Snowball Offensive brawl in the Winter Wonderland event for Overwatch. It even tells you the time you've spent patting! (Wow!) This idea is not originally mine. Someone else made a similar page around the time Winter Wonderland 2016 was released. However, I have since been unable to find that page so I decided to make my own version of it. Have fun patting! This page uses JavaScript and jQuery to make sounds work on mobile. The style uses W3.CSS.</p>
         </div>
+
+        <script>
+
+                //var timerVar = setInterval(countTimer, 1000);
+                var totalSeconds = 0;
+                function countTimer() {
+                   ++totalSeconds;
+                   var hour = Math.floor(totalSeconds /3600);
+                   var minute = Math.floor((totalSeconds - hour*3600)/60);
+                   var seconds = totalSeconds - (hour*3600 + minute*60);
+                
+                   document.getElementById("timer").innerHTML = hour + " Hours, " + minute + " Minutes, " + seconds + " Seconds.";
+                }
+                
+                
+                $("#ok").click(function() {
+                  player = document.getElementById('player');
+                  $( this ).slideUp();
+                  player.play(); // Play the empty element to get control
+                  player.src = 'http://yernemm.xyz/media/sound/MeiPatPatPat.mp3'; // Set the real audio source
+                  var timerVar = setInterval(countTimer, 1000);
+                  beeper = setInterval(function() { player.play(); } ,0);
+                });
+                
+                </script>
+                
+
     </body>
 </html>
