@@ -10,6 +10,15 @@ const imgOther = "/static/media/icons/hammer.png"
 const imgOwmn = "/static/media/icons/owmn.svg"
 
 addProj(
+    'overwatch',
+    'Overwatch Hero Generator',
+    'Web Tools',
+    'ow',
+    'This page will choose an Overwatch hero for you to play either randomly or based on chosen conditions.',
+    imgOverwatch
+)
+
+addProj(
     'owleakgen',
     'Overwatch Fake 4chan Leak Generator',
     'Web Tools',
