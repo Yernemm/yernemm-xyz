@@ -18,6 +18,15 @@ addProj(
     imgOverwatch
 )
 
+addProj(
+    'owmn-icons/',
+    'OWMN CSS Generator',
+    'Web Tools',
+    'ow',
+    'Generate the CSS and spritesheet for OWMN subreddits.',
+    imgOwmn
+)
+
 projsString = genProjString()
 
 function addProj(file, name, type, cat, desc, img){
