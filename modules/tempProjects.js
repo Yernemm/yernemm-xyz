@@ -2,7 +2,7 @@ const projectsDir = './site/projects/';
 module.exports = {
     ps: projsString
 }
-let projsString = "";
+var projsString = "";
 let projects = [];
 
 const imgOverwatch = "/static/media/icons/ow.svg"
