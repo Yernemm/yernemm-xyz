@@ -9,6 +9,8 @@ const csvDataLocation = "https://docs.google.com/spreadsheets/d/1ZCZ50WS1zXhf6RX
 const rows = 5;
 //Height and width of each square sprite.
 const spriteSize = 32;
+//Relative image file path.
+const imgPath = '/static/media/icons/'
 
 function generate() {
 
@@ -200,7 +202,7 @@ function generate() {
 
         function drawToMain(id) {
             var img = new Image();
-            img.src = heroes[i].image;
+            img.src = imgPath + heroes[i].image;
 
             var pos = getSpritePosition(heroes[i])
             img.onload = function () {
