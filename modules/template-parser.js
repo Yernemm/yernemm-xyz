@@ -1,6 +1,6 @@
 const fs = require('fs');
 const templateDir = './templates/';
-const tempProjects = require("./modules/tempProjects.js");
+const tempProjects = require("./tempProjects.js");
 module.exports = parseHTML
 var allTemplates = [];
 var specialTags = [];
