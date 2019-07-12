@@ -65,7 +65,7 @@ addProj(
 
 addProj(
     'owmn-icons/',
-    '<i class="fas fa-globe"></i> OWMN CSS Generato',
+    '<i class="fas fa-globe"></i> OWMN CSS Generator',
     'Web Tools',
     'ow',
     'Generate the CSS and spritesheet for OWMN subreddits.',
