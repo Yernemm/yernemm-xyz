@@ -54,6 +54,17 @@ addProj(
     imgOverwatch
 )
 
+
+
+addProj(
+    'owmn-icons/',
+    '<i class="fas fa-globe"></i> OWMN CSS Generator',
+    'Web Tools',
+    'ow',
+    'Generate the CSS and spritesheet for OWMN subreddits.',
+    imgOwmn
+)
+
 addProj(
     'memegen',
     '<i class="fas fa-globe"></i> Meme Name Generator',
@@ -64,12 +75,12 @@ addProj(
 )
 
 addProj(
-    'owmn-icons/',
-    '<i class="fas fa-globe"></i> OWMN CSS Generator',
+    'fannamegen',
+    '<i class="fas fa-globe"></i> Fantasy Character Name Generator',
     'Web Tools',
-    'ow',
-    'Generate the CSS and spritesheet for OWMN subreddits.',
-    imgOwmn
+    'normal',
+    'This will generate a name with a fantasy style.',
+    imgOther
 )
 
 
