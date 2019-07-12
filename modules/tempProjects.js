@@ -11,7 +11,7 @@ const imgOwmn = "/static/media/icons/owmn.svg"
 
 addProj(
     'overwatch',
-    '<i class="fas fa-globe"></i>Overwatch Hero Generator',
+    '<i class="fas fa-globe"></i> Overwatch Hero Generator',
     'Web Tools',
     'ow',
     'This page will choose an Overwatch hero for you to play either randomly or based on chosen conditions.',
@@ -20,7 +20,7 @@ addProj(
 
 addProj(
     'owleakgen',
-    '<i class="fas fa-globe"></i>Overwatch Fake 4chan Leak Generator',
+    '<i class="fas fa-globe"></i> Overwatch Fake 4chan Leak Generator',
     'Web Tools',
     'ow',
     'This page will generate a fake 4chan-style leak for Overwatch content.',
@@ -29,7 +29,7 @@ addProj(
 
 addProj(
     'patpatpat',
-    '<i class="fas fa-globe"></i>Pat Pat Pat',
+    '<i class="fas fa-globe"></i> Pat Pat Pat',
     'Web Tools',
     'ow',
     'Pat Pat Pat!',
@@ -38,7 +38,7 @@ addProj(
 
 addProj(
     'wintermei',
-    '<i class="fas fa-globe"></i>Mei\'s Winter Experience',
+    '<i class="fas fa-globe"></i> Mei\'s Winter Experience',
     'Web Tools',
     'ow',
     "Experience an accurate recreation of Mei's Winter Wonderland.",
@@ -47,7 +47,7 @@ addProj(
 
 addProj(
     'owet',
-    '<i class="fas fa-download"></i>OverWatch Extract Toolkit',
+    '<i class="fas fa-download"></i> OverWatch Extract Toolkit',
     'Standalone',
     'ow',
     'A set of tools for extracting files from Overwatch, including a DataTool GUI.',
@@ -56,7 +56,7 @@ addProj(
 
 addProj(
     'owmn-icons/',
-    '<i class="fas fa-globe"></i>OWMN CSS Generator',
+    '<i class="fas fa-globe"></i> OWMN CSS Generator',
     'Web Tools',
     'ow',
     'Generate the CSS and spritesheet for OWMN subreddits.',
