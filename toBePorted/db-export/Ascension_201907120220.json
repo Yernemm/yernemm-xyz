@@ -1,0 +1,17 @@
+{
+"Ascension": [
+	{
+		"ID" : 1,
+		"Title" : "Waking up",
+		"Body" : "Where am I?\r\nI woke up here, in this room. I can't remember anything, I don't know what happened. Everything hurts... My feet, my hands, my head, everything.\r\nI can't remember who I am, what my life was before this.\r\nAll that exists is this room and this terminal.\r\nIt's a dark, square, matallic room, the area is maybe 4 metres in each direction and around 2 metres tall. There's a single light that's flush with the ceiling and it's permanently on. The walls are a cold and made of a dark-grey metal.\r\nThere is a computer screen and a keyboard at one wall with a sort of journal program turned on. That is what I'm writing with now. It's asking me for my name and the date but I swear I don't know. My mind is empty.\r\n...\r\nI'm scared.",
+		"Author" : "Traveller",
+		"DateT" : "Day 1"
+	},
+	{
+		"ID" : 2,
+		"Title" : "SYSTEM BOOT LOG",
+		"Body" : "[LOCAL TIME]\r\n[3718-04-14 23:59]\r\nINITIATING deepOS...\r\n...\r\n...\r\n...\r\nVERSION v1.02 LOADED.\r\nSTARTING FILESYSTEM...\r\n...\r\nFINDING SUBJECTS...\r\n...\r\n...\r\n...\r\n...\r\n...\r\n...\r\n...\r\n...\r\n...\r\n497 SUBJECTS FOUND.\r\nRUNNING QUERY...\r\n1 SUBJECT FOUND.\r\nLOCATING...\r\n...\r\nLOCATION FOUND\r\nINITIATING NETWORKING...\r\nESTABLISHING CONNECTION...\r\n[--------------------]\r\n[====----------------]\r\n[=============-------]\r\n[==================--]\r\n[====================]\r\nCONNECTION ESTABLISHED.\r\nOBSERVING...\r\nDATA COLLECTION STARTED...\r\nLOGS ENABLED.\r\n",
+		"Author" : "deepOS-system",
+		"DateT" : "3718-04-15"
+	}
+]}

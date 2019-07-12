@@ -1,0 +1,465 @@
+﻿{
+"tNews": [
+	{
+		"ID" : 1,
+		"Title" : "The Smooth Animations Update.",
+		"Date" : "2016-09-30T23:00:00Z",
+		"Body" : "(actual day unknown - it was in October)\r\n-The Overwatch Hero Generator now uses jQuery to add animations.",
+		"Tags" : "owGen"
+	},
+	{
+		"ID" : 2,
+		"Title" : "The Sombra Update",
+		"Date" : "2016-11-08T00:00:00Z",
+		"Body" : "-Added Sombra to all heroes, and her other roles.\r\n-Added Sombra button to the hero counter secntion.\r\n-Added Sombra as a counter to some of the existing heroes.",
+		"Tags" : "owGen"
+	},
+	{
+		"ID" : 3,
+		"Title" : "Advertisification and other changes.",
+		"Date" : "2016-11-12T00:00:00Z",
+		"Body" : "-Most pages now have one advertisement at the bottom. Previously, only the front page had an ad.\r\n-Overwatch timeline now officially abandoned.\r\n-Added Reddit and Steam to contact info.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 4,
+		"Title" : "Some fixes and updates.",
+		"Date" : "2016-11-13T00:00:00Z",
+		"Body" : "-The overwatch hero generator images now hosted on the same server. This fixes the problem with the imgaes not loading if their file server was blocked.\r\n-The size of ads is now automatic, making them display better on smaller screens like phones.",
+		"Tags" : "site, owGen"
+	},
+	{
+		"ID" : 5,
+		"Title" : "PHPfication.",
+		"Date" : "2016-11-14T00:00:00Z",
+		"Body" : "-All pages now converted from HTML to PHP. This makes it easier to manage pages.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 6,
+		"Title" : "FUN!",
+		"Date" : "2016-11-14T00:00:00Z",
+		"Body" : "-Added SWF browser games to the projects",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 7,
+		"Title" : "Some Apache stuff.",
+		"Date" : "2016-11-27T00:00:00Z",
+		"Body" : "-Site now uses Apache to remove file extensions from URL. E.g. the link to news is now yernemm.xyz\/news instead of yernemm.xyz\/news.php",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 8,
+		"Title" : "Some improvements.",
+		"Date" : "2016-12-07T00:00:00Z",
+		"Body" : "-More pages now use PHP tags, making the layout more consistent.\r\n-Most pages now load jQuery.\r\n-Pages now have a sticky footer at the bottom, scripted with jQuery. It sticks to the bottom of the page.\r\n-Website now uses HotJar to track statistics and provide users with polls and a way to submit feedback.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 9,
+		"Title" : "Memes",
+		"Date" : "2017-01-06T00:00:00Z",
+		"Body" : "-Added the Meme Name generator to Projects",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 10,
+		"Title" : "Name Gens",
+		"Date" : "2017-01-08T00:00:00Z",
+		"Body" : "-Added the Fantasy Character Name generator to Projects",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 11,
+		"Title" : "Overwatch Time Counter",
+		"Date" : "2017-01-14T00:00:00Z",
+		"Body" : "-Created and added the Overwatch Time Counter v1.0.0 to projects.\r\n-Installed h5ai to the web server so browsing files looks better.",
+		"Tags" : "site, owTime, software"
+	},
+	{
+		"ID" : 12,
+		"Title" : "Dark",
+		"Date" : "2017-01-19T00:00:00Z",
+		"Body" : "-Switched to a darker colour theme with a darker background and lighter text.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 13,
+		"Title" : "Articles: the beginning",
+		"Date" : "2017-01-20T00:00:00Z",
+		"Body" : "-Updated Overwatch Generator background to a darker one and adjusted the font colour.\r\n-Started updating the pages with a sidebar.\r\n-<i>Coming Soon: Articles page.<\/i>",
+		"Tags" : "site, owGen, articles"
+	},
+	{
+		"ID" : 14,
+		"Title" : "Screen Space",
+		"Date" : "2017-01-21T00:00:00Z",
+		"Body" : "-Anjusted the styles to make the website wider so less screen space is wasted.\r\n-Designed the basis for the articles page (not yet visible)\r\n-Added ckeditor to projects",
+		"Tags" : "site, articles"
+	},
+	{
+		"ID" : 15,
+		"Title" : "Old Tales",
+		"Date" : "2017-01-29T00:00:00Z",
+		"Body" : "-Added Bak LePepi to projects.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 16,
+		"Title" : "Comments and improvements.",
+		"Date" : "2017-02-01T00:00:00Z",
+		"Body" : "-Added Disqus to some pages to allow people to leave comments.\r\n-Added a projects iframe to the front page to make it easier to see the content from the front page.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 17,
+		"Title" : "Projects Page Overhaul",
+		"Date" : "2017-02-13T00:00:00Z",
+		"Body" : "-The projects page now has a separate box for each project instead of buttons.\r\n-Each project has a description.\r\n-Links to the \"Hot Sauce\" and \"The Witch\" videos have been removed\r\n-The Overwatch\/Paladins comparison has been moved from the Web Tools section to the Outdated or Obsolete section",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 18,
+		"Title" : "Overwatch generator: Orisa",
+		"Date" : "2017-03-04T00:00:00Z",
+		"Body" : "-Added Orisa to all heroes and tanks in the hero generator. No counters added yet because she is a new hero. In-game image used because no concept art has been released yet.\r\n-Added comments to the Overwatch hero generator.\r\n-Changed appearance of the hero generator. It now uses the same font as Overwatch and has orange animated buttons.",
+		"Tags" : "owGen"
+	},
+	{
+		"ID" : 19,
+		"Title" : "Overwatch generator: Team comps",
+		"Date" : "2017-03-05T00:00:00Z",
+		"Body" : "-The Overwatch hero generator can now generate team compositions.",
+		"Tags" : "owGen"
+	},
+	{
+		"ID" : 20,
+		"Title" : "Clicky",
+		"Date" : "2017-03-19T00:00:00Z",
+		"Body" : "-The site now uses Clicky for analytics data.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 21,
+		"Title" : "Hero Generator fixes and additions.",
+		"Date" : "2017-03-25T00:00:00Z",
+		"Body" : "Hero Generator Changes:\r\n-Fixed the bug which caused the generator to display the incorrect font to users who did not have the Big Noodle Titling font installed on their system.\r\n-Added Orisa as a counter to certain heroes.\r\n-Added an option to generate counters to Orisa.\r\n-Added more information to the More Info option on the generator page.\r\n\r\nOther Changes:\r\n-Updated root .htaccess file to redirect all incoming traffic to pages ending in .php to their respective counterparts without the extension. So ...\/page.php will be redirected to ...\/page .\r\n-Added cookies policy and message in compliance with the EU cookies law.",
+		"Tags" : "site, owGen"
+	},
+	{
+		"ID" : 22,
+		"Title" : "Goodbye, Hostinger. Hello, RDO Servers!",
+		"Date" : "2017-03-25T00:00:00Z",
+		"Body" : "The Yernemm Site has successfully updated its hosting. The site used to be hosted with Hostinger's free hosting service but it has now been moved to RDO Servers. Because of this, the website gets more resources which will lead to fewer problems and less downtime. There could still be a few problems after the transfer but fixing them is being prioritised in the development of this site.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 23,
+		"Title" : "Articles launched.",
+		"Date" : "2017-04-08T23:00:00Z",
+		"Body" : "-The Articles section of this website is now available.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 24,
+		"Title" : "Some fixes.",
+		"Date" : "2017-05-13T23:00:00Z",
+		"Body" : "-Fixed h5ai for browsing directories\r\n-Placed Disqus in a dark background with a border in <a href=\"http:\/\/edu.yernemm.xyz\">edu.<\/a>",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 25,
+		"Title" : "Edu fully launched.",
+		"Date" : "2017-05-24T23:00:00Z",
+		"Body" : "-Education is now linked in the navigation bar at the top of the page.\r\n-edu.yernemm.xyz should be visible to search engines.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 26,
+		"Title" : "Fake 4chan leaks!?",
+		"Date" : "2017-06-04T23:00:00Z",
+		"Body" : "-Added the Overwatch Fake 4chan Leak generator to Projects.\r\n-Website also restored after an hour of outage today from around 4pm bst to around 5pm bst.",
+		"Tags" : "site, owLeak"
+	},
+	{
+		"ID" : 27,
+		"Title" : "Twitter",
+		"Date" : "2017-06-09T23:00:00Z",
+		"Body" : "-Added Twitter to contact info.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 28,
+		"Title" : "Projects Cleaning",
+		"Date" : "2017-07-02T23:00:00Z",
+		"Body" : "-Removed links to some projects.\r\n-Renamed some project names.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 29,
+		"Title" : "In preparation for the 12th July protest...",
+		"Date" : "2017-07-10T23:00:00Z",
+		"Body" : "In support of the Net Neutrality principle, the website is updated with a banner and popup in order to raise awareness. More information can be found here: <a href=\"https:\/\/www.battleforthenet.com\/\">https:\/\/www.battleforthenet.com\/<\/a>\r\n\r\n-Code has been added which will diplay <a href=\"https:\/\/github.com\/fightforthefuture\/battleforthenet-widget\">this<\/a> popup on the 12th of July\r\n-<a href=\"https:\/\/drive.google.com\/file\/d\/0B7iKho2OIeVzcVQzS2c5Zmkwa3c\/view\">This<\/a> banner is temporarily shown at the top of each page. Originally found <a href=\"https:\/\/drive.google.com\/drive\/folders\/0B7iKho2OIeVzdTk4WTdCdGsxVlk\">here<\/a>.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 30,
+		"Title" : "Overwatch Hero Generator - Doomfist + Image loading fix",
+		"Date" : "2017-07-18T23:00:00Z",
+		"Body" : "-Doomfist has been added to the random hero generator.\r\n-Doomfist added to random, offence heroes, appropriate roles and strengths, and appopriate counters.\r\n-Doomfist counters added\r\n-Added an image loader to the Overwatch Generator script. It loads all images as the page loads so they don't pop in after the animation.",
+		"Tags" : "owGen"
+	},
+	{
+		"ID" : 31,
+		"Title" : "Beginning of mySQL",
+		"Date" : "2017-07-23T23:00:00Z",
+		"Body" : "-The News page now uses a mySQL database to store each news entry, and PHP to display it. It was all edited manually before.\r\n-Each news entry now has tags.\r\n\r\nThe plan is to use this to display latest news on pages and the sidebar. It can also replace the manual method for articles and edu.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 32,
+		"Title" : "News Search Bar",
+		"Date" : "2017-07-24T23:00:00Z",
+		"Body" : "-The News page now has a search bar which searches updates based on tags.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 33,
+		"Title" : "Articles Databased",
+		"Date" : "2017-07-26T00:08:27Z",
+		"Body" : "-Articles are now database based\r\n-Each article URL was migrated\r\n-Each article also has tags\r\n-News updates now also have a time stamp (No time data available for updates before this one so 00:00:00 is displayed)",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 34,
+		"Title" : "Protests Over",
+		"Date" : "2017-07-29T21:01:45Z",
+		"Body" : "-Removed the Net Neutrality banner from the top of the page.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 35,
+		"Title" : "To Do list",
+		"Date" : "2017-07-29T21:36:46Z",
+		"Body" : "-Added a To Do list to the About page.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 36,
+		"Title" : "OverTool GUI v1.1",
+		"Date" : "2017-05-05T17:24:00Z",
+		"Body" : "-Released\r\n-Buttons send commands to overtool.exe",
+		"Tags" : "OverToolGUI"
+	},
+	{
+		"ID" : 37,
+		"Title" : "OverTool GUI v1.2.5",
+		"Date" : "2017-06-02T13:50:00Z",
+		"Body" : "-added tool which automatically converts all .wem files to .ogg files in a folder\r\n-added support for itIT language in the GUI\r\n-fixed language flag in the GUI after latest overtool.exe version changed how it works",
+		"Tags" : "OverToolGUI"
+	},
+	{
+		"ID" : 38,
+		"Title" : "Overwatch Playtime Counter v1.0.0",
+		"Date" : "2017-01-15T00:58:00Z",
+		"Body" : "-Program counts the total time Overwatch is open. \r\n-Can set up any custom starting time.",
+		"Tags" : "owCounter"
+	},
+	{
+		"ID" : 39,
+		"Title" : "Overwatch Playtime Counter v1.2.0",
+		"Date" : "2017-03-01T20:52:00Z",
+		"Body" : "-Added current and previous play session counter\r\n-Each counter is colour coded\r\n-Added changelog button",
+		"Tags" : "owTimer"
+	},
+	{
+		"ID" : 40,
+		"Title" : "Program changelogs",
+		"Date" : "2017-07-29T22:57:21Z",
+		"Body" : "-Transferred all changelogs for the two programs to news",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 41,
+		"Title" : "New creation: Random Hero Concepts v1.0",
+		"Date" : "2017-08-03T00:10:16Z",
+		"Body" : "-Added the Overwatch Random Hero Concept Creator to projects.\r\n-At this stage, it generates the name, basic Bio and basic Gameplay.\r\n-Future plan: generate random concept art based on head, torso, arms and legs.",
+		"Tags" : "owHeroConcept"
+	},
+	{
+		"ID" : 42,
+		"Title" : "OverTool GUI v2.0",
+		"Date" : "2017-08-04T22:50:41Z",
+		"Body" : "-Completely redesigned the GUI\r\n-Moved the console window to a separate form\r\n-Rewritten all commands to be more compatible with OverTool (They now use words instead of single letters)\r\n-Compressed the 6 \"Additional Arguments\" fields into a single field\r\n-The \"[number]\" section of some buttons replaced with just \"*\"\r\n-Added some documentation and instructions to a help button\r\n-Separated Custom Command into \"run as mode\" and \"run as OverTool.exe\" options\r\n-Added a GUI status indicator\r\n-Added an optional flags field\r\n-Added an update checker at launch\r\n-Added a user tracker for analytics\r\n-Added these new commands:\r\n--List...\r\n---Game Modes\r\n---Game Types\r\n--Extract...\r\n---NPC Voice\r\n---Hero Voice (Previously just \"Voice\")\r\n---Announcer Sound\r\n---01B Audio\r\n---Weapon Skins\r\n---Map Audio",
+		"Tags" : "OverToolGUI"
+	},
+	{
+		"ID" : 43,
+		"Title" : "OverTool GUI v2.1",
+		"Date" : "2017-08-05T17:51:23Z",
+		"Body" : "-Added a .dds to .png file converter",
+		"Tags" : "OverToolGUI"
+	},
+	{
+		"ID" : 44,
+		"Title" : "Aesthetic improvements.",
+		"Date" : "2017-08-06T18:18:10Z",
+		"Body" : "-Changed the favicon of the website from the eyeball to the Yernemm Snowball drone image.\r\n-Fixed the background so it loops better. It is the same but then it repeats upside-down.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 45,
+		"Title" : "Articles altered",
+		"Date" : "2017-08-06T22:23:48Z",
+		"Body" : "-Articles now use fully PHP generated pages instead of just generated content.",
+		"Tags" : "site, articles"
+	},
+	{
+		"ID" : 46,
+		"Title" : "Sidebar improved, analytics changes and Snowball",
+		"Date" : "2017-08-07T00:56:41Z",
+		"Body" : "-Changed Articles section to update automatically using a database\r\n-Added news which updates automatically\r\n-Added hr separators between each section\r\n-Re-arranged the sidebar to place the information at the top, and tweets and ads below.\r\n-More sites now use the sidebar\r\n-Removed Clicky Analytics tracking code (No longer using it often as I rely on Google Analytics so I removed it to decrease load time)\r\n-Added a small icon of Snowball as the logo next to the Yernemm text in the navigation bar.\r\n-Added an image of Snowball to the front page",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 47,
+		"Title" : "Home and Project improvements",
+		"Date" : "2017-08-08T01:13:50Z",
+		"Body" : "-Articles fully moved with comments\r\n-All project links are now stored in database\r\n-The projects page can sort by categories\r\n-Front page improved\r\n-Removed popular and all projects\r\n-Added more info to about text on home page\r\n-Changed projects from iframe to list\r\n-Added more contact links at the bottom",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 48,
+		"Title" : "Android App!",
+		"Date" : "2017-08-13T16:38:59Z",
+		"Body" : "-The Overwatch Hero Generator now has two apps which are available on Google Play\r\n-Added a link to the apps on the Overwatch Hero Generator page",
+		"Tags" : "owGen"
+	},
+	{
+		"ID" : 49,
+		"Title" : "OverTool GUI v2.2",
+		"Date" : "2017-08-18T19:48:43Z",
+		"Body" : "New features:\r\n-There are now two separate commands assigned to each button: a letter command and a word command. These can be switched between using two radio buttons based on which type is supported by OverTool.\r\n\r\nBugs fixed:\r\n-\"Run as OverTool.exe command\" button would not insert a space after OverTool.exe.\r\n-Output path was not displayed in quotation marks and it would cause problems when folder names had spaces in them.\r\n-Leaving the command output window open and then running a command would not update the command output until it was manually closed and opened again.\r\n-Output path was not counted as a setting and therefore it would not be saved or loaded with other settings.\r\n\r\nOther:\r\n-Re-arranged the layout of the buttons to make the custom command text box longer.\r\n-Renamed \"CLICK HERE FOR HELP\" to \"HELP AND INFORMATION\".\r\n-Added contact information to the help window.\r\n-Added more info to help:\r\n--Mentioned GUI status in [General Info]\r\n--Added [Custom Command]\r\n--Added [Command Type]\r\n--Added [Troubleshooting]",
+		"Tags" : "OverToolGUI"
+	},
+	{
+		"ID" : 50,
+		"Title" : "OverTool GUI page update",
+		"Date" : "2017-08-31T20:54:39Z",
+		"Body" : "-Added a video tutorial to the OverTool GUI download page",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 51,
+		"Title" : "Disqus comment problem workaround",
+		"Date" : "2017-09-16T23:35:04Z",
+		"Body" : "-Implemented a temporary fix to the problem which caused Disqus comments to not always display. This is temporarily fixed by redirecting the entire site to https. A better solution should be implemented in the future.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 52,
+		"Title" : "Removing old pages",
+		"Date" : "2017-10-28T22:54:00Z",
+		"Body" : "-Removed link to downloads in the navbar; this page was not used much and it may be revisited and improved in the future.\r\n-Removed link to edu in the navbar; this project was mostly abandoned. Although it still exists for now, it may be removed at any time.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 53,
+		"Title" : "OHG (Web): 2\/2\/2 team comp bug fix",
+		"Date" : "2017-10-29T23:59:42Z",
+		"Body" : "-The bug which caused two of the same heroes to be generated using the 2\/2\/2 team comp option has been fixed.\r\n-The page now logs the 2\/2\/2 hero results to console.",
+		"Tags" : "owGen"
+	},
+	{
+		"ID" : 54,
+		"Title" : "Added the Mee6 Leaderboards Data Scraper program.",
+		"Date" : "2017-11-11T18:44:16Z",
+		"Body" : "-The Mee6 Leaderboards Data Scraper has now been fully released and it is listed in the projects list.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 55,
+		"Title" : "Overwatch hero generator: Moira",
+		"Date" : "2017-11-11T19:47:14Z",
+		"Body" : "-Moira added to the random heroes in the hero generator\r\n-Moira counters added\r\n-Moira categories added\r\n-Moira added to 2-2-2 team comp generator.",
+		"Tags" : "owGen"
+	},
+	{
+		"ID" : 56,
+		"Title" : "OW Extract Tool now Available!",
+		"Date" : "2017-11-25T03:54:34Z",
+		"Body" : "-OWET added to projects\r\n-Pre-release version available (most core features are there but some are missing)\r\n\r\nv0.1 features:\r\n\t-Working main menu\r\n\t-Settings menu\r\n\t-DataTool Downloader\r\n\t-DataTool GUI\r\n\t-Saving commands to file\r\n\t-Update checker\r\n\t-Help menu",
+		"Tags" : "owet"
+	},
+	{
+		"ID" : 57,
+		"Title" : "OWET Version 0.2 released.",
+		"Date" : "2017-11-29T21:23:52Z",
+		"Body" : "VERSION 0.2 CHANGELOG:\r\n\r\nFeatures:\r\n-Enabled Convert tools.\r\n-Added .wem to .ogg convert tool.\r\n-Added list-achievements button to DataTool GUI.\r\n\r\nMisc:\r\n- --convert-sound=False flag is now forced. This is a temporary work-around to fix bug [2]. This will be changed back in the future if a better solution is found.\r\n-The Yernemm logo now uses the animated gif version.\r\n-Some main menu elements are now hyperlinked to the Yernemm website.\r\n-Main menu now checks if there is a running command and shows a confirmation message if the user tries to close it when the toolkit is working.\r\n-Added ---Convert .wem to .ogg--- section to help text.\r\n-Added Discord server link to help window.\r\n-Probably some other very small things I forgot to mention...\r\n\r\nBUGS FIXED:\r\n\r\n-1)[FIXED] Optional flags doesn't put a space at the start of the flags in the command, even if a space is added to the flags box. \r\n-2)[TEMPORARY WORK-AROUND] DataTool's built-in .wem to .ogg conversion does not work properly when extracting sounds with the GUI (It does work without the GUI). It produces .ogg files which are corrupted and cannot be listened to.",
+		"Tags" : "owet"
+	},
+	{
+		"ID" : 58,
+		"Title" : "Pat Pat Pat!",
+		"Date" : "2017-12-17T20:56:20Z",
+		"Body" : "-Made and added the Pat Pat Pat project.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 59,
+		"Title" : "Mei's Winter Experience",
+		"Date" : "2017-12-27T03:30:53Z",
+		"Body" : "-Made and added the Mei's Winter Experience project.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 60,
+		"Title" : "OWET version 0.3",
+		"Date" : "2018-02-13T02:52:02Z",
+		"Body" : "OWET v0.3 CHANGELOG:\r\n-DataTool GUI:\r\n--Form no longer freezes when running a command.\r\n--Listing commands mostly fixed.\r\n--Sound files are now converted to ogg automatically.",
+		"Tags" : "owet"
+	},
+	{
+		"ID" : 61,
+		"Title" : "Brigitte Update",
+		"Date" : "2018-03-04T16:24:15Z",
+		"Body" : "-Added Brigitte to appopriate categories in the Overwatch hero generator.\r\n-Added a Brigitte counters button.\r\nTO-DO: Add brigitte to other hero counters.",
+		"Tags" : "owGen"
+	},
+	{
+		"ID" : 62,
+		"Title" : "OWET Version 0.4",
+		"Date" : "2018-04-27T14:39:37Z",
+		"Body" : "-Updated UI for the entire toolkit (removing borders and adding a custom title bar)\r\n-Added an \"Other Tools\" option.\r\n--Added a directory merge tool. This will merge all subdirectories with a specified name into one directory with that name.",
+		"Tags" : "owet"
+	},
+	{
+		"ID" : 63,
+		"Title" : "New Blog",
+		"Date" : "2018-06-11T23:51:57Z",
+		"Body" : "Added a new WordPress blog under <a href=\"https:\/\/yernemm.xyz\/blog\/\">https:\/\/yernemm.xyz\/blog\/<\/a> to replace the old articles pages. The link to the previous articles is no logner listed in the navigation but can still be found here <a href=\"https:\/\/yernemm.xyz\/articles\/\">https:\/\/yernemm.xyz\/articles\/<\/a>.",
+		"Tags" : "site"
+	},
+	{
+		"ID" : 64,
+		"Title" : "OWET Version 0.5",
+		"Date" : "2018-06-17T23:14:11Z",
+		"Body" : "-Rewrote the DataTool updater to automatically fetch the latest version from AppVeyor.\r\n-Removed all online help links and added link to guide instead.",
+		"Tags" : "owet"
+	},
+	{
+		"ID" : 65,
+		"Title" : "OWET Version 0.6",
+		"Date" : "2018-08-14T01:38:49Z",
+		"Body" : "-Added Themes!\r\n--Go to settings to change the colour theme of the tool.\r\n--You can create your own theme by creating a theme file.\r\n\r\n-Fixed auto-updater with the DataTool tanklib patch.",
+		"Tags" : "owet"
+	},
+	{
+		"ID" : 66,
+		"Title" : "OWET Version 0.6.1",
+		"Date" : "2018-09-20T00:10:59Z",
+		"Body" : "-Fixed DataTool auto-updater",
+		"Tags" : "owet"
+	}
+]}
