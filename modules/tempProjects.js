@@ -46,6 +46,15 @@ addProj(
 )
 
 addProj(
+    'owHeroConcept',
+    '<i class="fas fa-globe"></i> Overwatch Random Hero Concept Creator',
+    'Web Tools',
+    'ow',
+    "This page will randomly generate a concept Overwatch hero.",
+    imgOverwatch
+)
+
+addProj(
     'owet',
     '<i class="fas fa-download"></i> OverWatch Extract Toolkit',
     'Standalone',
