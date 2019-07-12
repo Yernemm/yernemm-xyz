@@ -41,7 +41,14 @@ const server = http.createServer((req, res) => {
             'Location': newpath
         });
         res.end();
-    } else {
+    } else if (q.pathname == "/projects/" || q.pathname == "/projects" || q.pathname == "/projects/index"|| q.pathname == "/projects/index.html") {
+        let newpath = '/#projects';
+        console.log("Redirect to " + newpath)
+        res.writeHead(302, {
+            'Location': newpath
+        });
+        res.end();
+    } else{
 
 
         var reqpath = req.url.toString().split('?')[0];
