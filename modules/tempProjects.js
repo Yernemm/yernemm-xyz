@@ -54,6 +54,14 @@ addProj(
     imgOverwatch
 )
 
+addProj(
+    'memegen',
+    '<i class="fas fa-globe"></i> Meme Name Generator',
+    'Web Tools',
+    'normal',
+    'This will generate a name based on memes.',
+    imgOther
+)
 
 addProj(
     'owmn-icons/',
@@ -64,14 +72,7 @@ addProj(
     imgOwmn
 )
 
-addProj(
-    'memegen',
-    '<i class="fas fa-globe"></i> Meme Name Generator',
-    'Web Tools',
-    'normal',
-    'This will generate a name based on memes.',
-    imgOther
-)
+
 
 projsString = genProjString()
 
