@@ -1,0 +1,22 @@
+[14-Apr-2018 22:47:15 UTC] PHP Warning:  include(/home/yernemmx/public_html/templates/ascension/head.php): failed to open stream: No such file or directory in /home/yernemmx/public_html/ascension/index.php on line 3
+[14-Apr-2018 22:47:15 UTC] PHP Warning:  include(): Failed opening '/home/yernemmx/public_html/templates/ascension/head.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/yernemmx/public_html/ascension/index.php on line 3
+[14-Apr-2018 22:47:40 UTC] PHP Warning:  include(/home/yernemmx/public_html/ascension/templates/head.php): failed to open stream: No such file or directory in /home/yernemmx/public_html/ascension/index.php on line 3
+[14-Apr-2018 22:47:40 UTC] PHP Warning:  include(): Failed opening '/home/yernemmx/public_html/ascension/templates/head.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/yernemmx/public_html/ascension/index.php on line 3
+[14-Apr-2018 22:59:56 UTC] PHP Warning:  include(/home/yernemmx/public_html/ascension/template/bottom.php): failed to open stream: No such file or directory in /home/yernemmx/public_html/ascension/index.php on line 155
+[14-Apr-2018 22:59:56 UTC] PHP Warning:  include(): Failed opening '/home/yernemmx/public_html/ascension/template/bottom.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/yernemmx/public_html/ascension/index.php on line 155
+[14-Apr-2018 23:00:01 UTC] PHP Warning:  include(/home/yernemmx/public_html/ascension/template/bottom.php): failed to open stream: No such file or directory in /home/yernemmx/public_html/ascension/index.php on line 155
+[14-Apr-2018 23:00:01 UTC] PHP Warning:  include(): Failed opening '/home/yernemmx/public_html/ascension/template/bottom.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/yernemmx/public_html/ascension/index.php on line 155
+[14-Apr-2018 23:19:14 UTC] PHP Notice:  Undefined index: a in /home/yernemmx/public_html/ascension/archive.php on line 33
+[15-Apr-2018 00:20:57 UTC] PHP Notice:  Undefined index: id in /home/yernemmx/public_html/ascension/archive.php on line 33
+[15-Apr-2018 00:20:57 UTC] PHP Notice:  Trying to get property of non-object in /home/yernemmx/public_html/ascension/archive.php on line 45
+[15-Apr-2018 00:21:03 UTC] PHP Notice:  Trying to get property of non-object in /home/yernemmx/public_html/ascension/archive.php on line 45
+[15-Apr-2018 00:22:09 UTC] PHP Notice:  Trying to get property of non-object in /home/yernemmx/public_html/ascension/archive.php on line 45
+[15-Apr-2018 00:22:13 UTC] PHP Notice:  Trying to get property of non-object in /home/yernemmx/public_html/ascension/archive.php on line 45
+[15-Apr-2018 00:37:05 UTC] PHP Notice:  Undefined index: id in /home/yernemmx/public_html/ascension/archive.php on line 33
+[15-Apr-2018 00:45:28 UTC] PHP Notice:  Undefined index: id in /home/yernemmx/public_html/ascension/archive.php on line 33
+[15-Apr-2018 00:45:28 UTC] PHP Notice:  Undefined variable: link2 in /home/yernemmx/public_html/ascension/archive.php on line 63
+[15-Apr-2018 00:45:28 UTC] PHP Fatal error:  Call to a member function query() on null in /home/yernemmx/public_html/ascension/archive.php on line 63
+[15-Apr-2018 00:45:41 UTC] PHP Notice:  Undefined index: id in /home/yernemmx/public_html/ascension/archive.php on line 33
+[15-Apr-2018 00:47:51 UTC] PHP Notice:  Undefined index: id in /home/yernemmx/public_html/ascension/archive.php on line 33
+[15-Apr-2018 00:49:47 UTC] PHP Notice:  Undefined index: id in /home/yernemmx/public_html/ascension/archive.php on line 33
+[15-Apr-2018 00:50:57 UTC] PHP Notice:  Undefined index: id in /home/yernemmx/public_html/ascension/archive.php on line 33

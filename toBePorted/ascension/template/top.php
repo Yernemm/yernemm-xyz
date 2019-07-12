@@ -1,0 +1,1 @@
+<pre><span style="text-align:left;font-family:Courier New,Courier,monospace">system deepOS v1.43</span></pre>
