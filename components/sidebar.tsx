@@ -5,7 +5,7 @@ const wrapperStyle : any = {
 };
 
 const sideBarStyle : any = {
-    width: '160px',
+    width: '250px',
     position: 'fixed',
     top: 0,
     left: 0,
@@ -17,7 +17,7 @@ const sideBarStyle : any = {
 };
 
 const contentStyle : any = {
-    marginLeft: '160px'
+    marginLeft: '250px'
 };
 
 const Sidebar : NextPage = props => (
