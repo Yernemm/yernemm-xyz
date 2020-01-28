@@ -5,15 +5,16 @@ const wrapperStyle : any = {
 };
 
 const sideBarStyle : any = {
-    width: '250px',
+    width: '240px',
     position: 'fixed',
     top: 0,
     left: 0,
     height: '100%',
     borderStyle: 'solid',
-    borderWidth: '2px',
-    overflowY: 'scroll',
-    overflowX: 'hidden'
+    borderWidth: '0px',
+    overflowY: 'auto',
+    overflowX: 'hidden',
+    padding: '5px'
 };
 
 const contentStyle : any = {
@@ -23,9 +24,13 @@ const contentStyle : any = {
 const Sidebar : NextPage = props => (
     <div style={wrapperStyle}>
     <div style={sideBarStyle}>
-        <p>ee</p>
-        <p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p><p>aaaaaaaaooooeo</p>
-    </div>
+        <h3>The Website</h3>
+       <ul>
+           <li>link</li>
+           <li>link</li>
+           <li>content</li>
+       </ul>
+         </div>
     <div style={contentStyle}>
         {props.children}
     </div>
