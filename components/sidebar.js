@@ -1,3 +1,4 @@
+
 const wrapperStyle = {
     color: "#ccc",
     fontFamily: "'Raleway', sans-serif"
@@ -31,6 +32,7 @@ const Sidebar = props => (
         `}</style>
     <div style={sideBarStyle}>
         <h3>The Website</h3>
+        
        <ul>
            <li>link</li>
            <li>link</li>

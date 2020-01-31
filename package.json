@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/Yernemm/yernemm-xyz#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-brands-svg-icons": "^5.12.0",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
     "@types/node": "^13.5.0",
     "@types/react": "^16.9.19",
     "isomorphic-unfetch": "^3.0.0",

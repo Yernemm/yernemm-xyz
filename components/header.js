@@ -11,9 +11,11 @@ const Header = props => (
         <title>Yernemm{props.title ? " - " + props.title : ""}</title>
         <link rel="shortcut icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/586954516c.js" crossorigin="anonymous"></script>
     </Head>
         <h1><img src="/static/media/image/snowballAnim.gif" style={logoStyle} />Yernemm{props.title ? " - " + props.title : ""}</h1>
         <hr />
+
     </div>
 )
 
