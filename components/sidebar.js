@@ -1,3 +1,4 @@
+import Link from 'next/link';
 
 const wrapperStyle = {
     color: "#ccc",
@@ -21,6 +22,31 @@ const contentStyle = {
     marginLeft: '250px'
 };
 
+const PageLink = props => (
+<li><Link href={props.href}><a>{props.name}</a></Link>
+<style jsx>{`
+  /* unvisited link */
+  a:link {
+    color: #ccf;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #ccf;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #88f;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #88f;
+  }
+`}</style></li>
+)
+
 const Sidebar = props => (
     
     <div style={wrapperStyle}>
@@ -31,17 +57,18 @@ const Sidebar = props => (
             
         `}</style>
     <div style={sideBarStyle}>
-        <h3>The Website</h3>
+        <h3>Pages</h3>
         
        <ul>
-           <li>link</li>
-           <li>link</li>
-           <li>content</li>
+           <PageLink href='/' name='Home' />
+           <PageLink href='/projects' name='Projects' />
        </ul>
          </div>
     <div style={contentStyle}>
         {props.children}
     </div>
+    
+
     </div>
 );
 

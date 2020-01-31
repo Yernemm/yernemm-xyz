@@ -10,8 +10,8 @@ const linkStyle = {
     textDecoration: 'none',
     color: '#fff',
     margin: 'auto',
-    padding: '5px',
-    borderRadius:'25px'
+    padding: '0px',
+    marginTop:'40px',
 
 }
 
@@ -19,16 +19,22 @@ const linkBorderStyle = {
     width:'70px',
     height:'70px',
     margin:'5px',
-    borderRadius:'5px'
+    borderRadius:'5px',
+    paddingTop:'10px'
 }
 
-const LinkBtn = props => (
+const GeneralBtn = props => (
     <div style={{display: 'inline', float: 'left'}}>
-    <div style={{...{backgroundColor: props.color}, ...linkBorderStyle}}>
-        
-        <a href={props.url} style={linkStyle}><FontAwesomeIcon icon={['fab',props.name]} height='50'/></a>
+    <div style={{...{backgroundColor: props.color}, ...linkBorderStyle}}>       
+    <a href={props.url} style={linkStyle}>{props.children}</a>
         </div>    
     </div>
+)
+
+const LinkBtn = props => (
+    <GeneralBtn color={props.color} url={props.url}>
+        <FontAwesomeIcon icon={['fab',props.name]} height='50'/>
+    </GeneralBtn>
 )
 
 
@@ -43,19 +49,21 @@ const Home = (prop) => (
        <br/>
        
        <h1><b>Links</b></h1>  
+       <p>
         <div>
-            <div style={{textAlign: 'center'}}>
+            <div style={{margin:'auto', textAlign: 'center', height:'100px'}}>
                 <LinkBtn url='https://twitter.com/Yernemm' color='#1ca0f1' name='twitter' />
                 <LinkBtn url='https://www.youtube.com/channel/UCfOGXFJdLqnhfENzTCC9IjA/featured' color='red' name='youtube' />
-                <a href="https://twitter.com/Yernemm"><FontAwesomeIcon icon={['fab','twitter']} height='50'/></a>
-                <a href="https://www.youtube.com/channel/UCfOGXFJdLqnhfENzTCC9IjA/featured"><FontAwesomeIcon icon={['fab','youtube']} height='50'/></a>
-                <a href="https://www.reddit.com/user/yernemm"><FontAwesomeIcon icon={['fab','reddit']} height='50'/></a>
-                <a href="https://github.com/Yernemm/"><FontAwesomeIcon icon={['fab','github']} height='50'/></a>
-                <a href="https://discord.gg/uqhkBt8"><FontAwesomeIcon icon={['fab','discord']} height='50'/></a>
-                <a href="https://discord.gg/wFbJZqC" className="fab fab-btn w3-card-4" style={{backgroundColor: "#d5855c"}}><img style={{maxHeight: "50px", width: "auto"}} src="/static/media/icons/brigitte.png"/></a>
-              
+                <LinkBtn url='https://www.reddit.com/user/yernemm' color='orangered' name='reddit' />
+                <LinkBtn url='https://github.com/Yernemm/' color='black' name='github' />
+                <LinkBtn url='https://discord.gg/uqhkBt8' color='purple' name='discord' />
+                <GeneralBtn color='#d5855c' url='https://discord.gg/wFbJZqC'>
+                <img style={{maxHeight: "50px", width: "auto"}} src="/static/media/icons/brigitte.png"/>
+                </GeneralBtn>
+                
               </div>
             </div>
+            </p>
 </Wrapper>
 )
 
