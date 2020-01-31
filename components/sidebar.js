@@ -1,4 +1,5 @@
 const wrapperStyle = {
+    color: "#ccc",
     fontFamily: "'Raleway', sans-serif"
 };
 
@@ -20,7 +21,14 @@ const contentStyle = {
 };
 
 const Sidebar = props => (
+    
     <div style={wrapperStyle}>
+        <style jsx global>{`
+          body {
+            background-image: url("/static/media/image/back.jpg")
+          }
+            
+        `}</style>
     <div style={sideBarStyle}>
         <h3>The Website</h3>
        <ul>
