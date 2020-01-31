@@ -6,6 +6,31 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core'
 library.add(fab, fas);
 
+const linkStyle = {
+    textDecoration: 'none',
+    color: '#fff',
+    margin: 'auto',
+    padding: '5px',
+    borderRadius:'25px'
+
+}
+
+const linkBorderStyle = {
+    width:'70px',
+    height:'70px',
+    margin:'5px',
+    borderRadius:'5px'
+}
+
+const LinkBtn = props => (
+    <div style={{display: 'inline', float: 'left'}}>
+    <div style={{...{backgroundColor: props.color}, ...linkBorderStyle}}>
+        
+        <a href={props.url} style={linkStyle}><FontAwesomeIcon icon={['fab',props.name]} height='50'/></a>
+        </div>    
+    </div>
+)
+
 
 const Home = (prop) => (
     <Wrapper title="Home">
@@ -19,7 +44,9 @@ const Home = (prop) => (
        
        <h1><b>Links</b></h1>  
         <div>
-            <div>
+            <div style={{textAlign: 'center'}}>
+                <LinkBtn url='https://twitter.com/Yernemm' color='#1ca0f1' name='twitter' />
+                <LinkBtn url='https://www.youtube.com/channel/UCfOGXFJdLqnhfENzTCC9IjA/featured' color='red' name='youtube' />
                 <a href="https://twitter.com/Yernemm"><FontAwesomeIcon icon={['fab','twitter']} height='50'/></a>
                 <a href="https://www.youtube.com/channel/UCfOGXFJdLqnhfENzTCC9IjA/featured"><FontAwesomeIcon icon={['fab','youtube']} height='50'/></a>
                 <a href="https://www.reddit.com/user/yernemm"><FontAwesomeIcon icon={['fab','reddit']} height='50'/></a>
@@ -33,17 +60,8 @@ const Home = (prop) => (
 )
 
 Home.getInitialProps = async function(){
-    const res = await fetch('https://docs.google.com/document/d/e/2PACX-1vRF2ZkT94svdc3ya1UQOPQCkaXnAPflIhBvVnMoj-N-UY2TdBH-khGU3S5Ef8ycGnK6JAV8FMeY6Thb/pub?embedded=true');
-    const data = await res.text();
 
-    
-
-    let out = {data: data, body: data.split("</head>")[1].split("</html>")[0].replace("<body", "<div").replace("</body", "</div") };
-    
-    //console.log(out);
-    
-    
-    return out;
+    return {};
     
   
 }
