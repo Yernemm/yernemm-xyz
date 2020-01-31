@@ -1,17 +1,16 @@
-import { NextPage } from 'next';
 import Header from './header';
 import Footer from './footer';
 import Sidebar from './sidebar';
 
-const content : any = {
+const content = {
     margin: "auto",
     maxWidth: "800px"
 };
 
-let Wrapper : NextPage = props => (
+let Wrapper = props => (
     <div>
         <Sidebar>
-        <Header />      
+        <Header title={props.title}/>      
         <div style={content}>
         {props.children}
         </div>

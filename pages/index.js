@@ -1,19 +1,12 @@
-import { NextPage } from 'next';
 import Wrapper from '../components/page-wrapper';
 import fetch from 'isomorphic-unfetch';
 
-interface Props {
-    data: any,
-    body: any
-}
-
-const Home: NextPage = props => (
-    <Wrapper>
+const Home = (prop) => (
+    <Wrapper title="Home">
         <p>
 A etiam maecenas aptent augue amet? Tellus adipiscing auctor in volutpat eget platea aenean morbi porttitor nisi vulputate. Litora pretium curabitur pulvinar posuere cras morbi nunc egestas semper aptent condimentum. Nascetur; suspendisse cum condimentum commodo proin per risus. Congue litora non nisl. Nascetur; vulputate vestibulum condimentum aliquam pretium. Ridiculus euismod ad diam fusce platea hac vulputate sem imperdiet facilisis himenaeos a. Mattis aliquet platea sollicitudin ad sit elementum. Mi risus scelerisque platea viverra augue massa feugiat sollicitudin vulputate consequat mus. Interdum sollicitudin ullamcorper natoque vehicula. Facilisi curabitur placerat faucibus himenaeos natoque at accumsan dolor sollicitudin duis. Netus euismod augue ad vehicula magna ligula himenaeos hac. Sodales sit ad iaculis morbi.
 </p>
-    {//props.body
-}
+    <div dangerouslySetInnerHTML={{__html: prop.body}} />
 <p>
 Donec integer leo porta magnis! Accumsan ultricies mollis per. Nostra auctor egestas mollis, litora lorem proin aenean placerat risus sodales. Lorem risus adipiscing in risus semper sodales fermentum phasellus viverra elementum. Convallis, potenti fames proin suscipit. Lacinia tempor adipiscing tristique ipsum ac duis quisque lacinia praesent. Odio hac a nascetur blandit enim. Purus volutpat himenaeos tortor diam himenaeos blandit lacus curabitur mus elit phasellus! Magna adipiscing lorem sed vehicula class primis at. Elit in!
 </p>
@@ -48,13 +41,17 @@ Home.getInitialProps = async function(){
     const res = await fetch('https://docs.google.com/document/d/e/2PACX-1vRF2ZkT94svdc3ya1UQOPQCkaXnAPflIhBvVnMoj-N-UY2TdBH-khGU3S5Ef8ycGnK6JAV8FMeY6Thb/pub?embedded=true');
     const data = await res.text();
 
-    console.log(data.split("</head>")[1].split("</html>")[0]);
+    
 
-    let out : Props = {data: data, body: data.split("</head>")[1].split("</html>")[0] };
-
+    let out = {data: data, body: data.split("</head>")[1].split("</html>")[0].replace("<body", "<div").replace("</body", "</div") };
+    
+    console.log(out);
+    
+    
     return out;
     
   
 }
+
 
 export default Home;

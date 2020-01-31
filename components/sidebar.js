@@ -1,10 +1,8 @@
-import { NextPage } from "next";
-
-const wrapperStyle : any = {
+const wrapperStyle = {
 
 };
 
-const sideBarStyle : any = {
+const sideBarStyle = {
     width: '240px',
     position: 'fixed',
     top: 0,
@@ -17,11 +15,11 @@ const sideBarStyle : any = {
     padding: '5px'
 };
 
-const contentStyle : any = {
+const contentStyle = {
     marginLeft: '250px'
 };
 
-const Sidebar : NextPage = props => (
+const Sidebar = props => (
     <div style={wrapperStyle}>
     <div style={sideBarStyle}>
         <h3>The Website</h3>
