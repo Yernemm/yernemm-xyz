@@ -1,0 +1,36 @@
+@font-face {
+    font-family: bigNoodleTitling;
+    src: url('/media/fonts/big_noodle_titling_oblique.ttf');
+    
+}
+
+.font {
+font-family: bigNoodleTitling;
+font-size: 150%;
+}
+.buttonOw {
+display: inline-block;
+padding: 5px 10px;
+font-size: 25px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+background-color:  #FF6600;
+border: none;
+border-radius: 2px;
+box-shadow: 0 9px #999;
+width:100%;
+font-family: bigNoodleTitling;
+
+
+}
+
+.buttonOw:hover {background-color:  #fe5320}
+
+.buttonOw:active {
+background-color: #ee3300;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}

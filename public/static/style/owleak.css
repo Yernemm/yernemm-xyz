@@ -1,0 +1,22 @@
+.theleak{
+    background-color: rgb(214, 218, 240);
+    color: black;
+    font-family: arial,helvetica,sans-serif;
+font-size: 10pt;
+}
+
+.anon{
+   color: rgb(17, 119, 67);
+}
+
+.replies{
+   color: rgb(84, 85, 122);
+}
+.repsmall{
+   color: rgb(84, 85, 122);
+   font-size: 8pt;
+}
+.padding{
+   padding:10px 10px 10px 20px;
+   background-color: rgb(214, 218, 240);
+}

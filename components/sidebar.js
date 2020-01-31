@@ -1,5 +1,5 @@
 const wrapperStyle = {
-
+    fontFamily: "'Raleway', sans-serif"
 };
 
 const sideBarStyle = {
