@@ -26,7 +26,7 @@ class Project {
     }
 
     getSmall(){
-        return (<div><Link href={'/projects/' + this.file}><a>
+        return (<div><Link href={this.file}><a>
     {this.getIcon()} {this.name}
             </a></Link><style jsx>{`
   /* unvisited link */
