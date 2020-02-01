@@ -1,6 +1,13 @@
 import Wrapper from '../../components/page-wrapper';
-export default () => (
+import projects from '../../scripts/projectsData';
+
+
+let Projects = props => (
     <Wrapper title='Projects'>
-        
+        {projects.allBig}
     </Wrapper>
 )
+
+
+
+export default Projects;
