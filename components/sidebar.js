@@ -62,6 +62,7 @@ const Sidebar = props => (
        <ul>
            <PageLink href='/' name='Home' />
            <PageLink href='/projects' name='Projects' />
+           <PageLink href='/posts' name='Posts' />
        </ul>
          </div>
     <div style={contentStyle}>

@@ -66,7 +66,7 @@ const Home = (prop) => (
        </div>
        <br/>
        
-       <h1><b>Links</b></h1>  
+       <h1><b>Profiles &amp; Socials</b></h1>  
        <p>
         <div style={{textAlign:'center'}}>
             <div style={linksWrapper}>
