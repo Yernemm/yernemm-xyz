@@ -11,11 +11,12 @@ function countTimer() {
 }
 
 
-$("#ok").click(function() {
+function okOnClick() {
+  console.log("click")
   player = document.getElementById('player');
   $( this ).slideUp();
   player.play(); // Play the empty element to get control
   player.src = '/static/media/sound/MeiPatPatPat.mp3'; // Set the real audio source
   var timerVar = setInterval(countTimer, 1000);
   beeper = setInterval(function() { player.play(); } ,0);
-});
+}

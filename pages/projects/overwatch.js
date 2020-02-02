@@ -1,11 +1,13 @@
 import Wrapper from '../../components/page-wrapper';
 import Head from 'next/head';
 export default props => (
-    <Wrapper>
+    <Wrapper title="Overwatch Hero Generator">
         <div dangerouslySetInnerHTML={{__html: htmlpage}}/>
         <Head><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="/static/style/overwatch.css"></link></Head>
+        <link rel="stylesheet" type="text/css" href="/static/style/overwatch.css"></link>
         <script type="text/javascript" src="/static/scripts/owGeneratorTeam.js?version=29"></script>
+        </Head>
+        
     </Wrapper>
 )
 
