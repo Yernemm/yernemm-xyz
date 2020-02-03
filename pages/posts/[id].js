@@ -120,7 +120,3 @@ Posts.getInitialProps = async function(context) {
     //const json = await csvtojson
     return {postsData: json, id: id, body: {__html: body}, style: style, postData}
 }
-
-async function convert(csv){
-    
-}

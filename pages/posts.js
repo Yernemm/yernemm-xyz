@@ -1,17 +1,22 @@
 import Wrapper from '../components/page-wrapper';
 import fetch from 'isomorphic-unfetch';
 import Link from 'next/link';
+const u = require('../scripts/util.js');
 const csvtojson = require("csvtojson");
 let Posts = props => ( 
     <Wrapper title="Posts">
-        <ul>
-        {props.postsData.map(data=>(
-            <li key={data.id}>
-                <Link href="/posts/[id]" as={`/posts/${data.id}`}>
-                    <a>{data.title}</a>
-                    
-                </Link>
-                <style jsx>{`
+        <div>
+        {props.postsData.map(data=>(<div  key={data.id}>
+          <a>
+            <div>
+            <Link href="/posts/[id]" as={`/posts/${data.id}`}><span>  
+        <p> {data.title}</p>
+        <p style={{fontSize: '60%'}}>Created: {u.formatDate(u.getDateObj(data.created))}</p>
+                    <hr />
+                    </span></Link>
+               
+            </div>
+            </a> <style jsx>{`
   /* unvisited link */
   a:link {
     color: #ccf;
@@ -31,10 +36,10 @@ let Posts = props => (
   a:active {
     color: #88f;
   }
-`}</style>
-            </li>
+`}</style></div>
         ))}
-        </ul>
+        </div>
+
     </Wrapper>
 )
 
