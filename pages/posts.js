@@ -10,8 +10,8 @@ let Posts = props => (
           <a>
             <div>
             <Link href="/posts/[id]" as={`/posts/${data.id}`}><span>  
-        <p> {data.title}</p>
-        <p style={{fontSize: '60%'}}>Created: {u.formatDate(u.getDateObj(data.created))}</p>
+            <a><p> {data.title}</p>
+        <p style={{fontSize: '60%'}}>Created: {u.formatDate(u.getDateObj(data.created))}</p></a>
                     <hr />
                     </span></Link>
                

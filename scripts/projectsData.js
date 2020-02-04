@@ -187,7 +187,7 @@ addProj(
 
 
 addProj(
-    '/projects/owmn-icons/',
+    '/projects/owmn-icons',
     'OWMN CSS Generator',
     'Web Tools',
     'ow',

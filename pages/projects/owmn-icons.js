@@ -69,8 +69,4 @@ const htmlc = `
 <br>
 </div>
 
-                                      
-<!--insert:contentAfter.html-->
-
-
 `
