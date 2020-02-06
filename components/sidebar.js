@@ -56,7 +56,7 @@ const Sidebar = props => (
            <PageLink href='/' name='Home' />
            <PageLink href='/projects' name='Projects' />
            <PageLink href='/posts' name='Posts' />
-           <PageLink href='/blog' name='Blog' />
+           <PageLink href='https://yernemm.xyz/blog/' name='Blog' />
            
       
          </div>
