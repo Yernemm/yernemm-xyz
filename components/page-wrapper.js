@@ -1,6 +1,7 @@
 import Header from './header';
 import Footer from './footer';
 import Sidebar from './sidebar';
+import Head from 'next/head';
 
 const content = {
     margin: "auto",
@@ -12,6 +13,11 @@ const content = {
 
 let Wrapper = props => (
     <div>
+        <Head>
+        <link rel="stylesheet" type="text/css" href="/static/style/wrapper.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"/>
+        </Head>
         <Sidebar>
         <Header title={props.title}/>      
         <div style={content}><div>

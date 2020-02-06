@@ -1,71 +1,66 @@
 import Link from 'next/link';
+import Head from 'next/head';
 
-const wrapperStyle = {
-    color: "#ccc",
-    fontFamily: "'Raleway', sans-serif"
-};
 
-const sideBarStyle = {
-    width: '240px',
-    position: 'fixed',
-    top: 0,
-    left: 0,
-    height: '100%',
-    borderStyle: 'solid',
-    borderWidth: '0px',
-    overflowY: 'auto',
-    overflowX: 'hidden',
-    padding: '5px'
-};
-
-const contentStyle = {
-    marginLeft: '250px'
-};
-
-const PageLink = props => (
-<li><Link href={props.href}><a>{props.name}</a></Link>
+const PageLink = props => (<>
+<Link href={props.href}><a>
+<div className='sidebarLink'>🡪 {props.name}
+</div>
+</a></Link>
 <style jsx>{`
-  /* unvisited link */
-  a:link {
-    color: #ccf;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: #ccf;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: #88f;
-  }
-  
-  /* selected link */
-  a:active {
-    color: #88f;
-  }
-`}</style></li>
-)
+
+
+.sidebarLink {
+  background-color: rgba(50,50,150,0.2);
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+/* unvisited link */
+a:link {
+  color: #ccf;
+}
+
+/* visited link */
+a:visited {
+  color: #ccf;
+}
+
+/* mouse over link */
+a:hover {
+  color: #88f;
+  font-size: 120%;
+}
+
+/* selected link */
+a:active {
+  color: #88f;
+}
+
+`}</style>
+</>)
+
 
 const Sidebar = props => (
     
-    <div style={wrapperStyle}>
-        <style jsx global>{`
-          body {
-            background-image: url("/static/media/image/back.jpg")
-          }
-            
-        `}</style>
-    <div style={sideBarStyle}>
+    <div className='wrapperstyle'>
+
+    <div className='sidebarstyle'>
         <h3>Pages</h3>
         
-       <ul>
+      
            <PageLink href='/' name='Home' />
            <PageLink href='/projects' name='Projects' />
            <PageLink href='/posts' name='Posts' />
-       </ul>
+           <PageLink href='/blog' name='Blog' />
+           
+      
          </div>
-    <div style={contentStyle}>
+    <div className='contentstyle'>
         {props.children}
     </div>
     

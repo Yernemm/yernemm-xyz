@@ -2,6 +2,7 @@ import Wrapper from '../../components/page-wrapper';
 import Head from 'next/head';
 export default props => (
     <Wrapper title="Pat Pat Pat">
+        <p>Refresh the page to stop the sounds.</p>
         <div className="w3-theme-d5" dangerouslySetInnerHTML={{__html: htmlContent}} />
         <Head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

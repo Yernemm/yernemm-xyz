@@ -50,7 +50,7 @@ const GeneralBtn = props => (
 
 const LinkBtn = props => (
     <GeneralBtn color={props.color} url={props.url} desc={props.desc}>
-        <FontAwesomeIcon icon={['fab',props.name]} height='40'/>
+        <FontAwesomeIcon icon={['fab',props.name]} style={{fontSize: '40px'}}/>
     </GeneralBtn>
 )
 

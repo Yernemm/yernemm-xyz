@@ -6,18 +6,23 @@ const csvtojson = require("csvtojson");
 let Posts = props => ( 
     <Wrapper title="Posts">
         <div>
-        {props.postsData.map(data=>(<div  key={data.id}>
+        {props.postsData.map(data=>(<div className='hoverListItem' key={data.id}>
+          <Link href="/posts/[id]" as={`/posts/${data.id}`}>
           <a>
-            <div>
-            <Link href="/posts/[id]" as={`/posts/${data.id}`}><span>  
+            
+            <span>  
             <a><p> {data.title}</p>
         <p style={{fontSize: '60%'}}>Created: {u.formatDate(u.getDateObj(data.created))}</p></a>
                     <hr />
-                    </span></Link>
+                    </span>
                
-            </div>
-            </a> <style jsx>{`
+            
+            </a></Link> <style jsx>{`
   /* unvisited link */
+  a {
+    text-decoration: none;
+  }
+
   a:link {
     color: #ccf;
   }

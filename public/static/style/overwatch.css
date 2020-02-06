@@ -1,6 +1,6 @@
 @font-face {
     font-family: bigNoodleTitling;
-    src: url('/media/fonts/big_noodle_titling_oblique.ttf');
+    src: url('/static/media/fonts/big_noodle_titling_oblique.ttf');
     
 }
 
@@ -33,4 +33,13 @@ font-family: bigNoodleTitling;
 background-color: #ee3300;
 box-shadow: 0 5px #666;
 transform: translateY(4px);
+}
+
+.contentstyle {
+    margin-left: 0px;
+  }
+
+  .sidebarstyle {
+    position: static;
+    width: 99%;
 }

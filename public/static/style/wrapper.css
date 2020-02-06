@@ -1,0 +1,75 @@
+body {
+    background-image: url("/static/media/image/back.jpg")
+  }
+
+.wrapperstyle {
+    color: #ccc;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sidebarstyle {
+    width: 190px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-style: solid;
+    border-width: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 5px;
+}
+
+.contentstyle {
+    margin-left: 200px;
+}
+
+  /* unvisited link */
+  a:link {
+    color: #ccf;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #ccf;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #88f;
+
+  }
+  
+  /* selected link */
+  a:active {
+    color: #88f;
+  }
+
+  a {
+    transition-duration: 0.2s;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+@media only screen and (max-width: 800px) {
+  .contentstyle {
+    margin-left: 0px;
+  }
+
+  .sidebarstyle {
+    position: static;
+    width: 99%;
+}
+}
+.hoverListItem {
+  display: block;
+  transition-duration: 0.2s;
+}
+
+.hoverListItem:hover {
+  padding-left: 10px;
+}
+
+

@@ -26,7 +26,7 @@ class Project {
     }
 
     getSmall(){
-        return (<div><Link href={this.file}><a>
+        return (<div className='hoverListItem'><Link href={this.file}><a>
     {this.getIcon()} {this.name}
             </a></Link><style jsx>{`
   /* unvisited link */
@@ -53,7 +53,7 @@ class Project {
 
     getBig(){
         return (
-            <Link href={this.file}><a>
+            <Link href={this.file}><a className='hoverListItem'>
     <div className="w3-bar w3-border-top w3-border-bottom w3-border-blue">
 
         <div className={`proj-cat-${this.cat}`}>
