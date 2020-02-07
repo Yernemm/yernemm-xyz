@@ -6,11 +6,7 @@ export default class Analytics extends React.Component {
       initGA()
       window.GA_INITIALIZED = true
     }
-    
-    (window.adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-2219001427204097",
-        enable_page_level_ads: true
-   });
+
    logPageView();
   }
   render () {
