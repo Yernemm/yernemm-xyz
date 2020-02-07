@@ -185,19 +185,100 @@ var Header = function Header(props) {
   }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "363504492",
     __self: this
-  }, "img.jsx-363504492{max-width:100%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcYmFydGVcXE9uZURyaXZlXFxEb2N1bWVudHNcXEdpdEh1YlxceWVybmVtbS14eXpcXGNvbXBvbmVudHNcXGhlYWRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQmlCLEFBR29DLGVBQ25CIiwiZmlsZSI6IkM6XFxVc2Vyc1xcYmFydGVcXE9uZURyaXZlXFxEb2N1bWVudHNcXEdpdEh1YlxceWVybmVtbS14eXpcXGNvbXBvbmVudHNcXGhlYWRlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCc7XHJcblxyXG5sZXQgbG9nb1N0eWxlID0ge1xyXG4gICAgbWF4SGVpZ2h0Oic0MHB4JyxcclxuICAgIGZsb2F0OidyaWdodCdcclxufVxyXG5cclxuY29uc3QgSGVhZGVyID0gcHJvcHMgPT4gKFxyXG4gICAgPGRpdj5cclxuICAgICAgICAgICAgPEhlYWQ+XHJcbiAgICAgICAgPHRpdGxlPlllcm5lbW17cHJvcHMudGl0bGUgPyBcIiAtIFwiICsgcHJvcHMudGl0bGUgOiBcIlwifTwvdGl0bGU+XHJcbiAgICAgICAgPGxpbmsgcmVsPVwic2hvcnRjdXQgaWNvblwiIGhyZWY9XCIvZmF2aWNvbi5pY29cIiAvPlxyXG4gICAgICAgIDxsaW5rIGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9UmFsZXdheSZkaXNwbGF5PXN3YXBcIiByZWw9XCJzdHlsZXNoZWV0XCIgLz5cclxuICAgICAgICA8c2NyaXB0IHNyYz1cImh0dHBzOi8va2l0LmZvbnRhd2Vzb21lLmNvbS81ODY5NTQ1MTZjLmpzXCIgY3Jvc3NPcmlnaW49XCJhbm9ueW1vdXNcIj48L3NjcmlwdD5cclxuICAgIFxyXG4gICAgICAgICAgICA8c3R5bGUganN4PlxyXG4gICAgICAgICAgICAgICAge2BcclxuICAgICAgICAgICAgICAgIGltZyB7XHJcbiAgICAgICAgICAgICAgICAgICAgbWF4LXdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgYH1cclxuICAgICAgICAgICAgPC9zdHlsZT5cclxuICAgICAgICAgICAgXHJcbiAgICAgICAgICAgIDwvSGVhZD5cclxuICAgICAgICAgICAgPHNwYW4gZGFuZ2Vyb3VzbHlTZXRJbm5lckhUTUw9e3tfX2h0bWw6IGhpZGRlbkNvbW1lbnR9fSAvPlxyXG48aDE+PGltZyBzcmM9XCIvc3RhdGljL21lZGlhL2ltYWdlL3Nub3diYWxsQW5pbS5naWZcIiBzdHlsZT17bG9nb1N0eWxlfSAvPlllcm5lbW17cHJvcHMudGl0bGUgPyBcIiAtIFwiICsgcHJvcHMudGl0bGUgOiBcIlwifTwvaDE+XHJcbiAgICAgICAgPGhyIC8+XHJcblxyXG4gICAgPC9kaXY+XHJcbilcclxuXHJcbmNvbnN0IGhpZGRlbkNvbW1lbnQgPSBgPCEtLVxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuSGkuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcbi0tPlxyXG5gXHJcblxyXG5leHBvcnQgZGVmYXVsdCBIZWFkZXI7Il19 */\n/*@ sourceURL=C:\\\\Users\\\\barte\\\\OneDrive\\\\Documents\\\\GitHub\\\\yernemm-xyz\\\\components\\\\header.js */")), __jsx("span", {
-    dangerouslySetInnerHTML: {
-      __html: hiddenComment
+  }, "img.jsx-363504492{max-width:100%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcYmFydGVcXE9uZURyaXZlXFxEb2N1bWVudHNcXEdpdEh1YlxceWVybmVtbS14eXpcXGNvbXBvbmVudHNcXGhlYWRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQmlCLEFBR29DLGVBQ25CIiwiZmlsZSI6IkM6XFxVc2Vyc1xcYmFydGVcXE9uZURyaXZlXFxEb2N1bWVudHNcXEdpdEh1YlxceWVybmVtbS14eXpcXGNvbXBvbmVudHNcXGhlYWRlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCc7XHJcblxyXG5sZXQgbG9nb1N0eWxlID0ge1xyXG4gICAgbWF4SGVpZ2h0Oic0MHB4JyxcclxuICAgIGZsb2F0OidyaWdodCdcclxufVxyXG5cclxuY29uc3QgSGVhZGVyID0gcHJvcHMgPT4gKFxyXG4gICAgPGRpdj5cclxuICAgICAgICAgICAgPEhlYWQ+XHJcbiAgICAgICAgPHRpdGxlPlllcm5lbW17cHJvcHMudGl0bGUgPyBcIiAtIFwiICsgcHJvcHMudGl0bGUgOiBcIlwifTwvdGl0bGU+XHJcbiAgICAgICAgPGxpbmsgcmVsPVwic2hvcnRjdXQgaWNvblwiIGhyZWY9XCIvZmF2aWNvbi5pY29cIiAvPlxyXG4gICAgICAgIDxsaW5rIGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9UmFsZXdheSZkaXNwbGF5PXN3YXBcIiByZWw9XCJzdHlsZXNoZWV0XCIgLz5cclxuICAgICAgICA8c2NyaXB0IHNyYz1cImh0dHBzOi8va2l0LmZvbnRhd2Vzb21lLmNvbS81ODY5NTQ1MTZjLmpzXCIgY3Jvc3NPcmlnaW49XCJhbm9ueW1vdXNcIj48L3NjcmlwdD5cclxuICAgIFxyXG4gICAgICAgICAgICA8c3R5bGUganN4PlxyXG4gICAgICAgICAgICAgICAge2BcclxuICAgICAgICAgICAgICAgIGltZyB7XHJcbiAgICAgICAgICAgICAgICAgICAgbWF4LXdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgYH1cclxuICAgICAgICAgICAgPC9zdHlsZT5cclxuXHJcbiAgICAgICAgICAgIDxtZXRhIG5hbWU9XCJ0d2l0dGVyOmNhcmRcIiBjb250ZW50PVwic3VtbWFyeVwiIC8+XHJcbjxtZXRhIG5hbWU9XCJ0d2l0dGVyOnNpdGVcIiBjb250ZW50PVwiQHllcm5lbW1cIiAvPlxyXG48bWV0YSBuYW1lPVwidHdpdHRlcjp0aXRsZVwiIGNvbnRlbnQ9eydZZXJuZW1tJyArIChwcm9wcy50aXRsZSA/IFwiIC0gXCIgKyBwcm9wcy50aXRsZSA6IFwiXCIpfSAvPlxyXG48bWV0YSBuYW1lPVwidHdpdHRlcjpkZXNjcmlwdGlvblwiIGNvbnRlbnQ9XCJDcmVhdGluZyB3ZWIgdG9vbHMgc2luY2UgMjAxNiBqdXN0IGZvciBmdW4uXCIgLz5cclxuPG1ldGEgbmFtZT1cInR3aXR0ZXI6aW1hZ2VcIiBjb250ZW50PVwiL3N0YXRpYy9tZWRpYS9pbWFnZS9zbm93YmFsbEZ1bGwucG5nXCIgLz5cclxuXHJcbjxtZXRhIHByb3BlcnR5PVwib2c6dGl0bGVcIiBjb250ZW50PXsnWWVybmVtbScgKyAocHJvcHMudGl0bGUgPyBcIiAtIFwiICsgcHJvcHMudGl0bGUgOiBcIlwiKX0gLz5cclxuPG1ldGEgcHJvcGVydHk9XCJvZzp0eXBlXCIgY29udGVudD1cIndlYnNpdGVcIiAvPlxyXG48bWV0YSBwcm9wZXJ0eT1cIm9nOmltYWdlXCIgY29udGVudD1cIi9zdGF0aWMvbWVkaWEvaW1hZ2Uvc25vd2JhbGxGdWxsLnBuZ1wiIC8+XHJcbjxtZXRhIHByb3BlcnR5PVwib2c6ZGVzY3JpcHRpb25cIiBjb250ZW50PVwiQ3JlYXRpbmcgd2ViIHRvb2xzIHNpbmNlIDIwMTYganVzdCBmb3IgZnVuLlwiIC8+XHJcbiAgICAgICAgICAgIFxyXG4gICAgICAgICAgICA8L0hlYWQ+XHJcbiAgICAgICAgICAgIDxzcGFuIGRhbmdlcm91c2x5U2V0SW5uZXJIVE1MPXt7X19odG1sOiBoaWRkZW5Db21tZW50fX0gLz5cclxuPGgxPjxpbWcgc3JjPVwiL3N0YXRpYy9tZWRpYS9pbWFnZS9zbm93YmFsbEFuaW0uZ2lmXCIgc3R5bGU9e2xvZ29TdHlsZX0gLz5ZZXJuZW1te3Byb3BzLnRpdGxlID8gXCIgLSBcIiArIHByb3BzLnRpdGxlIDogXCJcIn08L2gxPlxyXG4gICAgICAgIDxociAvPlxyXG5cclxuICAgIDwvZGl2PlxyXG4pXHJcblxyXG5jb25zdCBoaWRkZW5Db21tZW50ID0gYDwhLS1cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcbkhpLlxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG4tLT5cclxuYFxyXG5cclxuZXhwb3J0IGRlZmF1bHQgSGVhZGVyOyJdfQ== */\n/*@ sourceURL=C:\\\\Users\\\\barte\\\\OneDrive\\\\Documents\\\\GitHub\\\\yernemm-xyz\\\\components\\\\header.js */"), __jsx("meta", {
+    name: "twitter:card",
+    content: "summary",
+    className: "jsx-363504492",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
     },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:site",
+    content: "@yernemm",
+    className: "jsx-363504492",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  }), __jsx("h1", {
+  }), __jsx("meta", {
+    name: "twitter:title",
+    content: 'Yernemm' + (props.title ? " - " + props.title : ""),
+    className: "jsx-363504492",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:description",
+    content: "Creating web tools since 2016 just for fun.",
+    className: "jsx-363504492",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:image",
+    content: "/static/media/image/snowballFull.png",
+    className: "jsx-363504492",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }), __jsx("meta", {
+    property: "og:title",
+    content: 'Yernemm' + (props.title ? " - " + props.title : ""),
+    className: "jsx-363504492",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }), __jsx("meta", {
+    property: "og:type",
+    content: "website",
+    className: "jsx-363504492",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }), __jsx("meta", {
+    property: "og:image",
+    content: "/static/media/image/snowballFull.png",
+    className: "jsx-363504492",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }), __jsx("meta", {
+    property: "og:description",
+    content: "Creating web tools since 2016 just for fun.",
+    className: "jsx-363504492",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  })), __jsx("span", {
+    dangerouslySetInnerHTML: {
+      __html: hiddenComment
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }), __jsx("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
     },
     __self: this
   }, __jsx("img", {
@@ -205,13 +286,13 @@ var Header = function Header(props) {
     style: logoStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 37
     },
     __self: this
   }), "Yernemm", props.title ? " - " + props.title : ""), __jsx("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 38
     },
     __self: this
   }));

@@ -20,6 +20,17 @@ const Header = props => (
                 }
                 `}
             </style>
+
+            <meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@yernemm" />
+<meta name="twitter:title" content={'Yernemm' + (props.title ? " - " + props.title : "")} />
+<meta name="twitter:description" content="Creating web tools since 2016 just for fun." />
+<meta name="twitter:image" content="/static/media/image/snowballFull.png" />
+
+<meta property="og:title" content={'Yernemm' + (props.title ? " - " + props.title : "")} />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="/static/media/image/snowballFull.png" />
+<meta property="og:description" content="Creating web tools since 2016 just for fun." />
             
             </Head>
             <span dangerouslySetInnerHTML={{__html: hiddenComment}} />
