@@ -1,5 +1,6 @@
 import Wrapper from '../components/page-wrapper'
 import Link from 'next/link'
+import Router from 'next/router';
 function Error({ statusCode }) {
     return (
         <Wrapper title={statusCode ? `Error ${statusCode}` : 'Error'}>
