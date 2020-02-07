@@ -44,6 +44,50 @@ a:active {
 `}</style>
 </>)
 
+const NormalLink = props => (
+  <>
+<a href={props.href}>
+<div className='sidebarLink'>🡪 {props.name}
+</div>
+</a>
+<style jsx>{`
+
+
+.sidebarLink {
+  background-color: rgba(50,50,150,0.2);
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+/* unvisited link */
+a:link {
+  color: #ccf;
+}
+
+/* visited link */
+a:visited {
+  color: #ccf;
+}
+
+/* mouse over link */
+a:hover {
+  color: #88f;
+  font-size: 120%;
+}
+
+/* selected link */
+a:active {
+  color: #88f;
+}
+
+`}</style>
+</>
+)
+
 
 const Sidebar = props => (
     
@@ -56,7 +100,8 @@ const Sidebar = props => (
            <PageLink href='/' name='Home' />
            <PageLink href='/projects' name='Projects' />
            <PageLink href='/posts' name='Posts' />
-           <PageLink href='https://yernemm.xyz/blog/' name='Blog' />
+           <NormalLink href='/blog/' name='Blog' />
+           
            
       
          </div>
