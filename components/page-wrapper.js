@@ -2,6 +2,7 @@ import Header from './header';
 import Footer from './footer';
 import Sidebar from './sidebar';
 import Head from 'next/head';
+import Analytics from './analytics';
 
 const content = {
     margin: "auto",
@@ -12,7 +13,7 @@ const content = {
 };
 
 let Wrapper = props => (
-    <div>
+    <Analytics>
         <Head>
         <link rel="stylesheet" type="text/css" href="/static/style/wrapper.css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -25,7 +26,7 @@ let Wrapper = props => (
         </div>
         <Footer />
         </Sidebar>
-    </div>
+    </Analytics>
 );
 
 export default Wrapper;
