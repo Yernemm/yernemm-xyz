@@ -12,7 +12,7 @@ const Header = props => (
         <link rel="shortcut icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
         <script src="https://kit.fontawesome.com/586954516c.js" crossOrigin="anonymous"></script>
-    
+        <script data-ad-client="ca-pub-2219001427204097" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <style jsx>
                 {`
                 img {
