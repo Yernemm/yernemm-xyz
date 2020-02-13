@@ -3,6 +3,7 @@ import Footer from './footer';
 import Sidebar from './sidebar';
 import Head from 'next/head';
 import Analytics from './analytics';
+import AdSense from 'react-adsense';
 
 const content = {
     margin: "auto",
@@ -20,12 +21,17 @@ let Wrapper = props => (
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"/>
         </Head>
         <Sidebar>
+        <AdSense.Google
+  client='ca-pub-2219001427204097'
+  slot='9563398200'
+        />
         <Header title={props.title}/>      
         <div style={content}><div>
         {props.children}</div>
         </div>
         <Footer />
         </Sidebar>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </Analytics>
 );
 
