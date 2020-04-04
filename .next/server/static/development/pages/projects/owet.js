@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2445,7 +2445,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     lineNumber: 16
   },
   __self: undefined
-}, __jsx("image", {
+}, __jsx("img", {
   src: "https://i.imgur.com/LAE8QZb.png",
   __source: {
     fileName: _jsxFileName,
@@ -2458,7 +2458,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     lineNumber: 17
   },
   __self: undefined
-}, __jsx("image", {
+}, __jsx("img", {
   src: "https://i.imgur.com/WJIl6fK.png",
   __source: {
     fileName: _jsxFileName,
@@ -2532,7 +2532,7 @@ const logException = (description = '', fatal = false) => {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!**************************************!*\
   !*** multi ./pages/projects/owet.js ***!
   \**************************************/

@@ -13,8 +13,8 @@ export default () => (
 
         </div> 
         <h2>Screnshots:</h2>
-        <p><image src="https://i.imgur.com/LAE8QZb.png" /></p>
-        <p><image src="https://i.imgur.com/WJIl6fK.png" /></p>
+        <p><img src="https://i.imgur.com/LAE8QZb.png" /></p>
+        <p><img src="https://i.imgur.com/WJIl6fK.png" /></p>
     </Wrapper>
 )
 

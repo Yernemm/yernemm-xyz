@@ -13278,7 +13278,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 16
     },
     __self: this
-  }, __jsx("image", {
+  }, __jsx("img", {
     src: "https://i.imgur.com/LAE8QZb.png",
     __source: {
       fileName: _jsxFileName,
@@ -13291,7 +13291,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 17
     },
     __self: this
-  }, __jsx("image", {
+  }, __jsx("img", {
     src: "https://i.imgur.com/WJIl6fK.png",
     __source: {
       fileName: _jsxFileName,
@@ -13356,7 +13356,7 @@ var logException = function logException() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!*******************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprojects%2Fowet&absolutePagePath=C%3A%5CUsers%5CBakk%5CDocuments%5CGitHub%5Cyernemm-xyz%5Cpages%5Cprojects%5Cowet.js ***!
   \*******************************************************************************************************************************************************************/
@@ -13379,5 +13379,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=owet.js.map

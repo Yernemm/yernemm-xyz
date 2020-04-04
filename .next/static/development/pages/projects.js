@@ -26440,7 +26440,7 @@ addProj('/projects/fannamegen', 'Fantasy Character Name Generator', 'Web Tools',
 
 /***/ }),
 
-/***/ 3:
+/***/ 1:
 /*!*************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprojects&absolutePagePath=C%3A%5CUsers%5CBakk%5CDocuments%5CGitHub%5Cyernemm-xyz%5Cpages%5Cprojects%5Cindex.js ***!
   \*************************************************************************************************************************************************************/
@@ -26463,5 +26463,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=projects.js.map
