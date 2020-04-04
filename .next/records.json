@@ -1,0 +1,79 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi next-client-pages-loader?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app! node_modules/next/dist/client/router.js": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "framework": 2,
+      "4e927dba6352eed6e6c27b73c8a97330ea5ab6e1": 3,
+      "8f52b5a05f7ac77f853154de9b36297e9b4efe20": 4,
+      "a9a7754c": 5,
+      "b3900c14531bc24b4e6c6fd2c3f9effe06810d2b": 6,
+      "bcdce425": 7,
+      "cb1608f2": 8,
+      "static/runtime/main.js": 9,
+      "static/runtime/polyfills.js": 10,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\_app.js": 11,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\_error.js": 12,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\articles.js": 13,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\articles\\article.js": 14,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\articles\\article\\[id].js": 15,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\articles\\article\\a.js": 16,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\index.js": 17,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\posts.js": 18,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\posts\\[id].js": 19,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\projects.js": 20,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\projects\\fannamegen.js": 21,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\projects\\memegen.js": 22,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\projects\\overwatch.js": 23,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\projects\\owHeroConcept.js": 24,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\projects\\owet.js": 25,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\projects\\owleakgen.js": 26,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\projects\\owmn-icons.js": 27,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\projects\\patpatpat.js": 28,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\projects\\wintermei.js": 29,
+      "static\\hvE6qQQhKJ4XHg2PbX49v\\pages\\stracker.js": 30
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      2,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      3,
+      30,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}
