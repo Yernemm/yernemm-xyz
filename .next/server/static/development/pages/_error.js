@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -488,44 +488,47 @@ let Wrapper = props => __jsx(_analytics__WEBPACK_IMPORTED_MODULE_5__["default"],
     lineNumber: 23
   },
   __self: undefined
-}, __jsx(react_adsense__WEBPACK_IMPORTED_MODULE_6___default.a.Google, {
-  client: "ca-pub-2219001427204097",
-  slot: "9563398200",
-  style: {
-    height: "200px",
-    alignSelf: "center",
-    textAlign: "center"
-  },
-  format: "",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 25
-  },
-  __self: undefined
-}), __jsx(_header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+}, __jsx(_header__WEBPACK_IMPORTED_MODULE_1__["default"], {
   title: props.title,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 32
+    lineNumber: 26
   },
   __self: undefined
 }), __jsx("div", {
+  style: {
+    height: '100px'
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}, __jsx(react_adsense__WEBPACK_IMPORTED_MODULE_6___default.a.Google, {
+  client: "ca-pub-2219001427204097",
+  slot: "9877467510",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
+  },
+  __self: undefined
+})), __jsx("div", {
   style: content,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 33
+    lineNumber: 38
   },
   __self: undefined
 }, __jsx("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 33
+    lineNumber: 38
   },
   __self: undefined
 }, props.children)), __jsx(_footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36
+    lineNumber: 41
   },
   __self: undefined
 })), __jsx("script", {
@@ -533,7 +536,7 @@ let Wrapper = props => __jsx(_analytics__WEBPACK_IMPORTED_MODULE_5__["default"],
   src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 38
+    lineNumber: 43
   },
   __self: undefined
 }));
@@ -2484,7 +2487,7 @@ const logException = (description = '', fatal = false) => {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!*******************************!*\
   !*** multi ./pages/_error.js ***!
   \*******************************/

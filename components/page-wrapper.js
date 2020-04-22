@@ -21,15 +21,20 @@ let Wrapper = props => (
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"/>
         </Head>
         <Sidebar>
-              
+
+       
+        <Header title={props.title}/>   
+
+        <div style={{
+                  height:'100px'
+              }}>
         <AdSense.Google
             client='ca-pub-2219001427204097'
-            slot='9563398200'
-            style={{ height:"200px", alignSelf:"center", textAlign:"center" }}
-            format=''
+            slot='9877467510'
+
         />
-       
-        <Header title={props.title}/>      
+        </div> 
+
         <div style={content}><div>
         {props.children}</div>
         </div>

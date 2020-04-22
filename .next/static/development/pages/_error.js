@@ -382,44 +382,47 @@ var Wrapper = function Wrapper(props) {
       lineNumber: 23
     },
     __self: this
-  }, __jsx(react_adsense__WEBPACK_IMPORTED_MODULE_6___default.a.Google, {
-    client: "ca-pub-2219001427204097",
-    slot: "9563398200",
-    style: {
-      height: "200px",
-      alignSelf: "center",
-      textAlign: "center"
-    },
-    format: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }), __jsx(_header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, __jsx(_header__WEBPACK_IMPORTED_MODULE_1__["default"], {
     title: props.title,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 26
     },
     __self: this
   }), __jsx("div", {
+    style: {
+      height: '100px'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, __jsx(react_adsense__WEBPACK_IMPORTED_MODULE_6___default.a.Google, {
+    client: "ca-pub-2219001427204097",
+    slot: "9877467510",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  })), __jsx("div", {
     style: content,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 38
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 38
     },
     __self: this
   }, props.children)), __jsx(_footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 41
     },
     __self: this
   })), __jsx("script", {
@@ -427,7 +430,7 @@ var Wrapper = function Wrapper(props) {
     src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 43
     },
     __self: this
   }));
@@ -13319,7 +13322,7 @@ var logException = function logException() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!*************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=C%3A%5CUsers%5CBakk%5CDocuments%5CGitHub%5Cyernemm-xyz%5Cpages%5C_error.js ***!
   \*************************************************************************************************************************************************/
@@ -13342,5 +13345,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=_error.js.map

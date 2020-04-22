@@ -26,7 +26,7 @@ class Project {
     }
 
     getSmall(){
-        return (<div className='hoverListItem'><Link href={this.file}><a>
+        return (<div key={this.file} className='hoverListItem'><Link href={this.file}><a>
     {this.getIcon()} {this.name}
             </a></Link><style jsx>{`
   /* unvisited link */
