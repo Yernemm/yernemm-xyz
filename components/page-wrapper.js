@@ -26,18 +26,32 @@ let Wrapper = props => (
         <Header title={props.title}/>   
 
         <div style={{
-                  height:'100px'
+                  textAlign:'center',
+                  margin:'10px'
+                  
               }}>
-        <AdSense.Google
-            client='ca-pub-2219001427204097'
-            slot='9877467510'
-
-        />
+                 
+                 <AdSense.Google
+                    client='ca-pub-2219001427204097'
+                    slot='8571236655'
+                    style={{ display:'inline-block', width: 728, height: 90 }}
+                    format=''
+                />
+      
         </div> 
 
         <div style={content}><div>
         {props.children}</div>
         </div>
+        <AdSense.Google
+            client='ca-pub-2219001427204097'
+            slot='9877467510'
+            style={{ display: 'block' }}
+            format='auto'
+            responsive='true'
+            layoutKey='-gw-1+2a-9x+5c'
+         
+        />
         <Footer />
         </Sidebar>
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

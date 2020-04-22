@@ -497,7 +497,8 @@ let Wrapper = props => __jsx(_analytics__WEBPACK_IMPORTED_MODULE_5__["default"],
   __self: undefined
 }), __jsx("div", {
   style: {
-    height: '100px'
+    textAlign: 'center',
+    margin: '10px'
   },
   __source: {
     fileName: _jsxFileName,
@@ -506,29 +507,49 @@ let Wrapper = props => __jsx(_analytics__WEBPACK_IMPORTED_MODULE_5__["default"],
   __self: undefined
 }, __jsx(react_adsense__WEBPACK_IMPORTED_MODULE_6___default.a.Google, {
   client: "ca-pub-2219001427204097",
-  slot: "9877467510",
+  slot: "8571236655",
+  style: {
+    display: 'inline-block',
+    width: 728,
+    height: 90
+  },
+  format: "",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 31
+    lineNumber: 34
   },
   __self: undefined
 })), __jsx("div", {
   style: content,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 38
+    lineNumber: 43
   },
   __self: undefined
 }, __jsx("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 38
+    lineNumber: 43
   },
   __self: undefined
-}, props.children)), __jsx(_footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
+}, props.children)), __jsx(react_adsense__WEBPACK_IMPORTED_MODULE_6___default.a.Google, {
+  client: "ca-pub-2219001427204097",
+  slot: "9877467510",
+  style: {
+    display: 'block'
+  },
+  format: "auto",
+  responsive: "true",
+  layoutKey: "-gw-1+2a-9x+5c",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 41
+    lineNumber: 46
+  },
+  __self: undefined
+}), __jsx(_footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 55
   },
   __self: undefined
 })), __jsx("script", {
@@ -536,7 +557,7 @@ let Wrapper = props => __jsx(_analytics__WEBPACK_IMPORTED_MODULE_5__["default"],
   src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 43
+    lineNumber: 57
   },
   __self: undefined
 }));
