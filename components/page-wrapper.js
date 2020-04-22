@@ -44,7 +44,7 @@ let Wrapper = props => (
         {props.children}</div>
         </div>
 
-              <div style={{textAlign:'center'}}>
+              <div style={{textAlign:'center', margin:'10px' }}>
               <AdSense.Google
             client='ca-pub-2219001427204097'
             slot='9877467510'

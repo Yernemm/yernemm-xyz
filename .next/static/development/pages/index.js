@@ -428,7 +428,8 @@ var Wrapper = function Wrapper(props) {
     __self: this
   }, props.children)), __jsx("div", {
     style: {
-      textAlign: 'center'
+      textAlign: 'center',
+      margin: '10px'
     },
     __source: {
       fileName: _jsxFileName,

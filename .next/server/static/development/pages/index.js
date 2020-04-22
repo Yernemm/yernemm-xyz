@@ -534,7 +534,8 @@ let Wrapper = props => __jsx(_analytics__WEBPACK_IMPORTED_MODULE_5__["default"],
   __self: undefined
 }, props.children)), __jsx("div", {
   style: {
-    textAlign: 'center'
+    textAlign: 'center',
+    margin: '10px'
   },
   __source: {
     fileName: _jsxFileName,
