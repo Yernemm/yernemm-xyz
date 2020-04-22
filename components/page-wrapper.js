@@ -43,15 +43,19 @@ let Wrapper = props => (
         <div style={content}><div>
         {props.children}</div>
         </div>
-        <AdSense.Google
+
+              <div style={{textAlign:'center'}}>
+              <AdSense.Google
             client='ca-pub-2219001427204097'
             slot='9877467510'
-            style={{ display: 'block' }}
+            style={{ display: 'block', margin:'0 auto' }}
             format='auto'
             responsive='true'
             layoutKey='-gw-1+2a-9x+5c'
          
         />
+              </div>
+
         <Footer />
         </Sidebar>
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

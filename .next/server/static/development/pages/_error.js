@@ -532,24 +532,34 @@ let Wrapper = props => __jsx(_analytics__WEBPACK_IMPORTED_MODULE_5__["default"],
     lineNumber: 43
   },
   __self: undefined
-}, props.children)), __jsx(react_adsense__WEBPACK_IMPORTED_MODULE_6___default.a.Google, {
+}, props.children)), __jsx("div", {
+  style: {
+    textAlign: 'center'
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 47
+  },
+  __self: undefined
+}, __jsx(react_adsense__WEBPACK_IMPORTED_MODULE_6___default.a.Google, {
   client: "ca-pub-2219001427204097",
   slot: "9877467510",
   style: {
-    display: 'block'
+    display: 'block',
+    margin: '0 auto'
   },
   format: "auto",
   responsive: "true",
   layoutKey: "-gw-1+2a-9x+5c",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 46
+    lineNumber: 48
   },
   __self: undefined
-}), __jsx(_footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
+})), __jsx(_footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 55
+    lineNumber: 59
   },
   __self: undefined
 })), __jsx("script", {
@@ -557,7 +567,7 @@ let Wrapper = props => __jsx(_analytics__WEBPACK_IMPORTED_MODULE_5__["default"],
   src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 57
+    lineNumber: 61
   },
   __self: undefined
 }));
