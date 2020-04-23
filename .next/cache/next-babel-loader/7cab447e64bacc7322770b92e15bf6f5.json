@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport Analytics from '../components/analytics';\nexport default (props => __jsx(Analytics, null, \"Tracking page for Yernemm software\"));","map":null,"metadata":{},"sourceType":"module"}

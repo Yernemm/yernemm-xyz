@@ -213,6 +213,14 @@ addProj(
     imgOther
 )
 
+addProj(
+    '/projects/processing',
+    'Processing Experiments',
+    'Web Tools',
+    'normal',
+    'Some projects made with p5.js',
+    imgOther
+)
 
 
 
