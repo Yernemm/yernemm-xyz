@@ -100,7 +100,10 @@ const Sidebar = props => (
            <PageLink href='/' name='Home' />
            <PageLink href='/projects' name='Projects' />
            <PageLink href='/posts' name='Posts' />
-           <NormalLink href='/blog/' name='Blog' />
+           <NormalLink href='/blog/' name='Blog' /><br/>
+
+           <a href="https://www.patreon.com/bePatron?u=12603883" ><img src='/static/patreon.png' style={{opacity: '0.8', borderRadius: '5px', maxHeight: '40px'}}></img></a>
+
            
            
       
